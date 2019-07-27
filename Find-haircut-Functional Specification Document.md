@@ -1,16 +1,10 @@
 # Functional Specification Document
 
-# M
-
-# aster-hand
+# Master-hand
 
 
 
-
-
-**DOCUMENT VERSION**  **\&lt;0.1\&gt;**
-
-**\&lt;04/07/19\&gt;**
+**DOCUMENT VERSION**  **0.1**
 
 
 
@@ -18,17 +12,8 @@
 
 | **Name** | **Role** | **Department** |
 | --- | --- | --- |
-|
-- Sokolov Mykola
-  |
-- technical implementation of the project
-- idea&#39;s generator
- |   |
-|
-- Strogonova Anastasia
- |
-- user experience, design
- |   |
+|- Sokolov Mykola |- technical implementation of the project - ideas generator|   |
+|- Strogonova Anastasia |- user experience, design |   |
 
 
 
@@ -55,55 +40,55 @@
 
 **Table of Contents**
 
-1.        Introduction        3
+1.        Introduction
 
-1.1        Purpose of the document        4
+1.1        Purpose of the document
 
-1.2        Project Scope        4
+1.2        Project Scope
 
-1.3        Scope of the document        4
+1.3        Scope of the document
 
-1.4         Related documents        4
+1.4         Related documents
 
-1.5      Terms/Acronyms and Definitions        4
+1.5      Terms/Acronyms and Definitions
 
-1.6      Risks and Assumptions        4
+1.6      Risks and Assumptions
 
-2.        System/ Solution Overview        5
+2.        System/ Solution Overview
 
-2.1     Context Diagram/ Interface Diagram/ Data Flow Diagram, Application Screen Flow, Sitemap, Process Flow        5
+2.1     Context Diagram/ Interface Diagram/ Data Flow Diagram, Application Screen Flow, Sitemap, Process Flow
 
-2.2     System Actors        5
+2.2     System Actors
 
-2.3  Dependencies and Change Impacts        5
+2.3  Dependencies and Change Impacts
 
-3.        Functional Specifications        5
+3.        Functional Specifications
 
-3.1 \&lt;Title\&gt;        6
+3.1 \&lt;Title\&gt;
 
-4.        System Configurations        8
+4.        System Configurations
 
-5.        Other System Requirements/ Non-Functional Requirements        9
+5.        Other System Requirements/ Non-Functional Requirements
 
-6.        Reporting Requirements        9
+6.        Reporting Requirements
 
-7.        Integration Requirements        9
+7.        Integration Requirements
 
-7.1        Exception Handling/ Error Reporting        9
+7.1        Exception Handling/ Error Reporting
 
-8.        Data Migration/ Conversion Requirements        10
+8.        Data Migration/ Conversion Requirements
 
-8.1        Data Conversion Strategy        10
+8.1        Data Conversion Strategy
 
-8.2        Data Conversion Preparation        10
+8.2        Data Conversion Preparation
 
-8.3        Data Conversion Specifications        10
+8.3        Data Conversion Specifications
 
-9.        References        10
+9.        References
 
-10.        Open Issues        10
+10.        Open Issues
 
-Appendix        10
+Appendix
 
 1. 1. Introduction
 
@@ -397,26 +382,26 @@ _\&lt;Specify all the field data elements related to the functional requirement 
 
 
 
-1. 4.System Configurations
+4. System Configurations
 
 _\&lt;Provide an overview of all the steps or the set ups required to configure an application/program. Also state the intent or purpose behind each set up or configuration. Discuss the possible alternatives, customizations, workaround&#39;s, conditions and dependencies in a particular configuration. In case of Oracle applications, please list all applicable BR100&#39;s or Application set up documents\&gt;_
 
-1. 5. Other System Requirements/ Non-Functional Requirements
+5. Other System Requirements/ Non-Functional Requirements
 
 _\&lt;This section is used in contrast with stated functional requirements to highlight the additional details on the quality related aspects as well as other behavioral aspects of a system. This section is used to capture the stakeholders&#39; implicit expectations about how well the system will work under a given circumstance. Here you can  state the specific SLA&#39;s related to system response times (Data search and retrieval), Performance needs and metrics, Latencies in a particular timeframe or during high volume transactions, System failures and recovery management, Security levels and accessibility constraints, Data Backup and archiving Capabilities, Legal compliance needs etc. The broader definition of the term &#39;system&#39; also includes integrations with all types of Mobile platforms, Mobile devices, Tablets and Smart phones.\&gt;_
 
-1. 6.Reporting Requirements
+6. Reporting Requirements
 
 _\&lt;This section is used to capture the reporting needs, including but not limited to the scope and format of the report, data elements and contents required on the report, file types and extraction mechanisms, user base and accessibility levels, frequency of report extractions etc. Also provide the mock up of the report if needed.  If necessary, create a separate document for reporting requirements.\&gt;_
 
-1. 7.Integration Requirements
+7. Integration Requirements
 
 _\&lt;Identify the integration needs and state all required interfaces with anything external to this solution including hardware, software, and users. Include Architectural overview diagrams, high level data flow diagrams, table structures and schema, interface protocols, API&#39;s, Error conditions, Error validations and messaging needs, Auto processing requirements etc. You can optionally state hardware and software dependencies, Upgrade requirements, compatibility issues with existing frameworks and solutions, etc\&gt;_
 
 _(Data Flow Diagrams,_ _Interface_ _Diagrams – if necessary)_
 
-1.
-  1. 7.1Exception Handling/ Error Reporting
+
+7.1 Exception Handling/ Error Reporting
 
 _\&lt;This is where you can explain the error conditions/Exceptions that normally happen in Interfaces or cross flow system integrations. Explain the nature of exception, Error Id, Root cause of the error and also the strategy to handle the scenario. You can also indicate if there are any concurrent programs designed to automatically handle the error records or error conditions. State if there are any error reports generated or notifications utilized to alarm the support teams and system Administrators during the interface failures or outages\&gt;_
 
@@ -428,28 +413,26 @@ _\&lt;This is where you can explain the error conditions/Exceptions that normall
 
 _\&lt;Explain in brief the data conversion plan._ _Provide full identifying information for the automated system, application, or situation for which the Data Conversion Plan applie __s._ _Describe_ _briefly_ _any assumptions__ , constraints_ _or_ _risks_ _regarding the data conversion effort._ _(Provide details in section 1.6)\&gt;_
 
-1.
-  1. 8.1Data Conversion Strategy
+
+8.1 Data Conversion Strategy
 
 _\&lt;Include the overall strategy for the Data Conversion. This includes how and when you will perform the conversion - the approach used to extract, transform and load data during the conversion process, the conversion schedule, and test plan for testing the converted data.\&gt;_
 
-1.
-  1. 8.2Data Conversion Preparation
+8.2 Data Conversion Preparation
 
 _\&lt;Provide details on any prerequisites necessary for the conversion. Discuss the backup strategy, restoration process in case the conversion fails.\&gt;_
 
-1.
-  1. 8.3Data Conversion Specifications
+8.3 Data Conversion Specifications
 
 | **Source** | **Source Data Element** | **Target** | **Target Data Element** | **Conversion Rules** | **Notes** |
 | --- | --- | --- | --- | --- | --- |
 | _\&lt;Source location\&gt;_ | _\&lt;Source Data Element Identifier \&gt;_ | _\&lt;Target location\&gt;_ | _\&lt;Target Data Element Identifier\&gt;_ | _\&lt;Describe rules for Data conversion\&gt;_ | _\&lt;Additional notes\&gt;_ |
 
-1. 9.References
+9. References
 
 _\&lt;__List all references to external material used as background information or knowledge for the FSD. Examples may include a compliancy website, Stanford website, etc\&gt;_
 
-1. 10.Open Issues
+10. Open Issues
 
 | **Issue ID** | **Issue** | **Raised By** | **Raised On** | **Solution/ Decision** | **Resolved By** | **Resolved On** | **Status** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
