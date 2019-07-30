@@ -40,7 +40,7 @@
 
 **Table of Contents**
 
-1. [ Introduction ] (#introduction)
+1. [ Introduction ](#introduction)
 
 1.1        Purpose of the document
 
