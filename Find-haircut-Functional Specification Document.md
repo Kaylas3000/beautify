@@ -42,7 +42,7 @@
 
 1. [ Introduction ](#introduction)
 
-1.1        Purpose of the document
+1.1 [ Purpose of the document ](#purpose)
 
 1.2        Project Scope
 
@@ -95,8 +95,8 @@ Appendix
 
 The application to provide the relationship between customers(С) and craftsmen (service providers-SP) - hairdressers, makeup artists, nail art masters, cosmetologists &amp; etc.
 
-1.
-  1. 1.1Purpose of the document
+<a name="purpose"></a>
+## 1.1. Purpose of the document
 
 Will be described in this document:
 
