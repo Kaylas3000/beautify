@@ -64,7 +64,7 @@
 
 3.        Functional Specifications
 
-3.1 \&lt;Title\&gt;
+3.1 ????????????????????????/;
 
 4.        System Configurations
 
@@ -105,7 +105,7 @@ Will be described in this document:
 
 3. Stages of analyzing user data
 
-4.  Interaction&#39;s methodology (?) of users and program, aiming at obtaining the result (profit) by obtaining the final service by the user (U),
+4.  Interactions methodology (?) of users and program, aiming at obtaining the result (profit) by obtaining the final service by the user (U),
 
 5. The methodology of interaction (?) between users
 
@@ -114,18 +114,24 @@ Will be described in this document:
 1.
   1. 1.2      Project Scope
 
-_\&lt;Describe the project scope that addresses the business need or problem.  Include high-level information on the solution\&gt;.?????????????/_
+The application solves the following tasks of a small business:
+-attracting customers through targeted advertising
+customer expansion
+-keeping a calendar of the accounting of working hours (dates and time of visits)
+-opportunity for a specialist to plan your day more efficiently
+-a specialist can inform his clients about various promotions thereby increasing sales of his services
+
+The client can select the wizard based on the actual parameters of the location, free time, price range, reviews of other clients, verified photos.
 
 1.
   1. 1.3Scope of the document
 
-my opinion it is necessary to create several FSD:
 
 0. preliminary analysis of data
 
 1. technical data
 
-2.interaction of program  with user,
+2.иinteraction of program  with user,
 
 - interaction of users among themselves
 
@@ -133,7 +139,6 @@ my opinion it is necessary to create several FSD:
 
 ## 1.4         Related documents
 
-_\&lt;Add any related documentation that is relevant and related to the FSD. Some examples are the Project Charter, Business Requirements Document, etc.\&gt;._
 
 | **Component** | **Name (with link to the document)** | **Description** |
 | --- | --- | --- |
@@ -174,7 +179,7 @@ _\&lt;Provide a short description of the software and solution being specified a
 
 [**https://writemaps.com/**](https://writemaps.com/)
 
-[**anstrogonova@gmail.com**](mailto:anstrogonova@gmail.com)
+[**anstrogonova@gmail.com**](mail to:anstrogonova@gmail.com)
 
 **18121800qQ**
 
