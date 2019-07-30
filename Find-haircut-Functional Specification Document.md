@@ -40,7 +40,7 @@
 
 **Table of Contents**
 
-1.        Introduction
+1. [ Introduction ] (#introduction)
 
 1.1        Purpose of the document
 
@@ -90,7 +90,8 @@
 
 Appendix
 
-1. 1. Introduction
+<a name="introduction"></a>
+## 1. Introduction
 
 The application to provide the relationship between customers(С) and craftsmen (service providers-SP) - hairdressers, makeup artists, nail art masters, cosmetologists &amp; etc.
 
