@@ -168,11 +168,17 @@ User (U)
 - lack of media advertising at first
 
 1. 2.  System/ Solution Overview
+
 Mobile application for android (Android mobile operating system 7.0 and newer) and iOS ( iOS mobile operating system 9.3.6 and newer)
 
 the A should correctly display on the screens of mobile phones with the following parameters:
 Proportions: 16:9 5:3 3:2
 Size: Flagmans - iPhone Xr (1792 x 828), iPhone X Plus (2688 x 1242), iPhone X(2436 x 1125),  iPhone 8 (1334 х 750), iPhone 8  (1920 х 1080) and minimal - 5 (1136 x 640) 4 (960 x 640).
+
+Galaxy A50 (1080x2340 px),Galaxy A70 (1080 x 2400 px)
+
+Huawei Honor 10 Lite (1080 x 2340px) + 415ppi
+Huawei Honor 8X (1080 x 2340px) + 397ppi
 
 
 
