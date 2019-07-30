@@ -115,11 +115,11 @@ Will be described in this document:
   1. 1.2      Project Scope
 
 The application solves the following tasks of a small business:
--attracting customers through targeted advertising
+* attracting customers through targeted advertising
 customer expansion
--keeping a calendar of the accounting of working hours (dates and time of visits)
--opportunity for a specialist to plan your day more efficiently
--a specialist can inform his clients about various promotions thereby increasing sales of his services
+* keeping a calendar of the accounting of working hours (dates and time of visits)
+* opportunity for a specialist to plan your day more efficiently
+* a specialist can inform his clients about various promotions thereby increasing sales of his services
 
 The client can select the wizard based on the actual parameters of the location, free time, price range, reviews of other clients, verified photos.
 
