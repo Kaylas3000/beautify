@@ -44,49 +44,47 @@
 
 1.1 [ Purpose of the document ](#purpose)
 
-1.2        Project Scope
+1.2 [ Project Scope ](#scope)
 
-1.3        Scope of the document
+1.3 [ Scope of the document ](#scopedocument)
 
-1.4         Related documents
+1.4 [ Related documents ](#relateddocuments)
 
-1.5      Terms/Acronyms and Definitions
+1.5 [ Terms/Acronyms and Definitions ](#terms)
 
-1.6      Risks and Assumptions
+1.6 [ Risks and Assumptions ](#risks)
 
-2.        System/ Solution Overview
+2. [ System/ Solution Overview ](#systemsolution)
 
-2.1     Context Diagram/ Interface Diagram/ Data Flow Diagram, Application Screen Flow, Sitemap, Process Flow
+2.1 [ Context Diagram/ Interface Diagram/ Data Flow Diagram, Application Screen Flow, Sitemap, Process Flow ](#contextdiagram)
 
-2.2     System Actors
+2.2. [ System Actors ](#systemactors)
 
-2.3  Dependencies and Change Impacts
+2.3. [ Dependencies and Change Impacts ](#dependencies)
 
-3.        Functional Specifications
+3. [ Functional Specifications ](#functionalspecifications)
 
-3.1 ????????????????????????/;
+4. [ System Configurations ](#systemconfigurations)
 
-4.        System Configurations
+5. [ Other System Requirements/ Non-Functional Requirements ](#othersystemrequirements)
 
-5.        Other System Requirements/ Non-Functional Requirements
+6. [ Reporting Requirements ](#reporting)
 
-6.        Reporting Requirements
+7. [ Integration Requirements ](#integration)
 
-7.        Integration Requirements
+7.1. [ Exception Handling/ Error Reporting ](#exceptionhandling)
 
-7.1        Exception Handling/ Error Reporting
+8. [ Data Migration/ Conversion Requirements ](#datamigration)
 
-8.        Data Migration/ Conversion Requirements
+8.1. [ Data Conversion Strategy ](#dataconversionstrategy)
 
-8.1        Data Conversion Strategy
+8.2. [ Data Conversion Preparation ](#dataconversionpreparation)
 
-8.2        Data Conversion Preparation
+8.3. [ Data Conversion Specifications ](#dataconversionspecifications)
 
-8.3        Data Conversion Specifications
+9. [ References ](#references)
 
-9.        References
-
-10.        Open Issues
+10. [ Open Issues ](#openissues)
 
 Appendix
 
@@ -124,8 +122,8 @@ customer expansion
 
 The client can select the wizard based on the actual parameters of the location, free time, price range, reviews of other clients, verified photos.
 
-1.
-  1. 1.3Scope of the document
+<a name="scopedocument"></a>
+## 1.3. Scope of the document
 
 
 0. preliminary analysis of data
