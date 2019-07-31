@@ -130,7 +130,7 @@ The client can select the wizard based on the actual parameters of the location,
 
 1. technical data
 
-2.иinteraction of program  with user,
+2. interaction of program  with user,
 
 - interaction of users among themselves
 
@@ -250,11 +250,7 @@ Huawei Honor 8X (1080 x 2340px) + 397ppi
 ### 2.2.1     User Roles and Responsibilities / Authority Requirements
 
 | **User/Role** | **Example** | **Frequency of Use** | **Security/Access, Features Used** | **Additional Notes** |
-| --- | --- | --- | --- | --- |
-| _\&lt;include the specified user/role such as Purchasing Manager, Dept Admin, Faculty, Student, etc\&gt;_ | _\&lt;include examples of real people  in the role\&gt;_ | _\&lt;describes how often they use the system. State Frequent, Occasional or Rare\&gt;_ | _\&lt;describe the features of the system available for the role and any security/access permissions that should be stated\&gt;_ | _\&lt;add any additional notes or supporting documentation as necessary\&gt;_    |
-
-| administrator |   |   |   |   |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | | _\&lt;include the specified user/role such as Purchasing Manager, Dept Admin, Faculty, Student, etc\&gt;_ | _\&lt;include examples of real people  in the role\&gt;_ | _\&lt;describes how often they use the system. State Frequent, Occasional or Rare\&gt;_ | _\&lt;describe the features of the system available for the role and any security/access permissions that should be stated\&gt;_ | _\&lt;add any additional notes or supporting documentation as necessary\&gt;_    | | administrator |   |   |   |   |
 | programmer |   |   |   |   |
 | disigner |   |   |   |   |
 | Costomer 1hair cut |   |   |   |   |
