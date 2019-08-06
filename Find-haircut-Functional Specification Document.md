@@ -341,12 +341,14 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 | **Primary Actor(s)**|< specialist or client>|
 | **Stakeholders and Interest** |< specialist or client>|
 | **Trigger** | <entrance to registration page> |
-|Pre-conditions|<user has not been registered before>| 
-|Post-conditions|<the user receives his individual account and is registered >| 
-|Main Success Scenario|  1. visit STARTING-POINT — registration page
-    2. put data into fields of registration data ( name, telephone number, e-mail, social network)
-    3. click the register button (join)
-    4. Make sure GOAL-ACHIEVED - Go to the created profile page>|
+| **Pre-conditions** |<user has not been registered before>| 
+|**Post-conditions|<the user receives his individual account and is registered >| 
+| **Main Success Scenario** |  
+ 1. visit STARTING-POINT — registration page
+ 2. put data into fields of registration data ( name, telephone number, e-mail, social network)
+ 3. click the register button (join)
+ 4. Make sure GOAL-ACHIEVED - Go to the created profile page>
+ |
 |Extensions|registration through social networks
 invalid phone number
 retry confirmation code
