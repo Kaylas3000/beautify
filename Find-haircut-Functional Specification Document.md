@@ -339,8 +339,8 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 | **UC-1** | **Registration page** |
 | --- | --- |
 | **Primary Actor(s)**|< specialist or client>|
-|Stakeholders and Interest|< specialist or client>|
-|Trigger|<entrance to registration page>|
+| **Stakeholders and Interest** |< specialist or client>|
+| **Trigger** | <entrance to registration page> |
 |Pre-conditions|<user has not been registered before>| 
 |Post-conditions|<the user receives his individual account and is registered >| 
 |Main Success Scenario|  1. visit STARTING-POINT — registration page
@@ -357,20 +357,6 @@ user with given mail number already exists|
 |Special Requirements|communication with the registration system through social networks
 communication with the communication system by phone number|
 |Open Questions||
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 | **UC-1** | **\&lt;Use case name\&gt;** |
