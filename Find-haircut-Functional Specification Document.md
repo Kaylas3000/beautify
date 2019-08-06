@@ -1,6 +1,6 @@
 # Functional Specification Document
 
-![login picture](//raw.githubusercontent.com/nzamb1/find-haircut/master/login.jpg?token=AMQ334G5I4WL7RCEG47KBMC5JGMG2 )
+[![login picture](//placehold.it/150x100)](https://github.com/nzamb1/find-haircut/blob/master/login.jpg)
 
 
 
