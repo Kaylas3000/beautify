@@ -12,7 +12,7 @@
 
 | **Name** | **Role** | **Department** |
 | --- | --- | --- |
-|- Sokolov Mykola |- technical implementation of the project - ideas generator|   |
+|- Sokolov Mykola |- technical implementation of the project <br> - ideas generator|   |
 |- Strogonova Anastasia |- user experience, design |   |
 
 
