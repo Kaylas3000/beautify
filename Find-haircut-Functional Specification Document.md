@@ -126,15 +126,15 @@ The client can select the wizard based on the actual parameters of the location,
 ## 1.3. Scope of the document
 
 
-0. preliminary analysis of data
+1. preliminary analysis of data
 
-1. technical data
+2. technical data
 
-2. interaction of program  with user,
+3. interaction of program  with user,
 
-- interaction of users among themselves
+4. interaction of users among themselves
 
-3. the outer view of A
+5. the outer view of A
 
 <a name="#relateddocuments"></a>
 ## 1.4 Related documents
