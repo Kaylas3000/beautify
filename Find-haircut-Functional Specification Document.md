@@ -375,7 +375,9 @@ _\&lt;Specify all the field data elements related to the functional requirement 
 | **Button, Link, Icon Label** | **OnClick Event** | **Other Event** | **Visible** | **Enabled Vs Disabled** | **Navigate To** | **Validation** | **Dependencies** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | _\&lt;Button label name\&gt;_ | _\&lt;Specify the operation that would be performed on an on-click event\&gt;_ | _\&lt;Specify the operation that would be performed on other events\&gt;_ | _\&lt;Specify default visibility of the button\&gt;_ | _\&lt;Specify if button is enabled or disabled and the condition, if any\&gt;_ | _\&lt;Specify the link where the page will be re-directed, if any\&gt;_ | _\&lt;Specify the validation rules on operation of the button\&gt;_ | _\&lt;Mention if there are any dependencies on other form elements and/ or buttons\&gt;_ |
-| _Button-”login”_ | _Move on next page with fields of user’s information_ | __ | _Yes, always_ | __ | _User Dashboard page_ | _Verify if Username is a valid sunet ID and user name and password match with registry data._ | _Disable the New user functionality on subsequent pages if user logs in through this button._ |
+| _Button-**login**_ | _Move on next page with fields of user’s information_ | __ | _Yes, always_ | __ | _User Dashboard page_ | _V_ | _Disable the New user functionality on subsequent pages if user logs in through this button._ |
+|Button- **registration**| Move on next page with fields of user’s information |||||
+
 
 
 
