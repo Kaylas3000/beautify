@@ -165,8 +165,9 @@ User (U)
 ## 1.6 Risks and Assumptions
 
 - it is not known what part of the market hides its revenues and therefore will be interested a little in using the application
-- masters will be able to  use  the application dishonest  - avoiding interest payment
-- masters will be able to cheat  &quot;likes&quot;, result is distrust to the application. A systematic check of the reality of reviews is needed (?).
+- masters will be able to  use  the application dishonest  
+- avoiding interest payment
+- masters will be able to cheat  &quot;likes&quot;, result is distrust to the application. A systematic check of the reality of reviews is needed.
 - lack of media advertising at first
 
 <a name="systemsolution"></a>
@@ -228,9 +229,8 @@ Huawei Honor 8X (1080 x 2340px) + 397ppi
 | administrator |   |   |   |   |
 | programmer |   |   |   |   |
 | disigner |   |   |   |   |  
-| Costomer 1hair cut |   |   |   |   |
-| Costomer 2 |   |   | REGISTRATION:add date: Name Surname e-mail password repeat password sign insign out Home Page:1. Сcould select the necessary section in the main menu (directory)- internal 1.1- use the filter when searching (date, time, minimum maximum price, location territorial- search by map- selection of S :- service selection- internal 1.1.1- choosing a convenient time- contact the S phone watches, etc.1. C can search services in the search bar2. C can entry to the S schedule (duplicate calendar)3. C can send a request for the selected time of servise4. C can receve notifications5. C can edit their profile6. C can create and redact list of their S7. help8.  feedback |   |
-| Specialist |   |   | S can edit your calendar:internal 1:- select customerinternal 1.2clients- customer groups- choose a service- session date (start - end)- comment search for customers in the search barinvite customersAdd FB and other applications to attract customers add customer dataphone email birthday synchronization with a notebook create customer groupsnew customersblack listpassive clients |   |
+| Costomer  |   |   | REGISTRATION:add date: Name Surname e-mail password repeat password sign insign out <br> Home Page: 1. Сcould select the necessary section in the main menu (directory)- internal 1.1- use the filter when searching (date, time, minimum maximum price, location territorial- search by map- selection of S :- service selection- internal 1.1.1- choosing a convenient time- contact the S phone watches, etc. <br> 1. C can search services in the search bar <br>  2. C can entry to the S schedule (duplicate calendar) <br> 3. C can send a request for the selected time of servise <br>  4. C can receve notifications <br>  5. C can edit their profile <br> 6. C can create and redact list of their S <br>  7. help <br> 8.  feedback |   |
+| Specialist |   |   | S can edit your calendar:internal 1:- select customerinternal <br>  1.2clients- customer groups- choose a service- session date (start - end)- comment search for customers in the search barinvite customers <br> Add FB and other applications to attract customers add customer dataphone email birthday synchronization with a notebook create customer groupsnew customersblack listpassive clients |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
@@ -248,9 +248,9 @@ Huawei Honor 8X (1080 x 2340px) + 397ppi
 
 _\&lt;List and identify any dependencies the proposed solution will have on other systems.\&gt;_
 
-- perative system of users&#39; telephone
+- operative system of users phone
 - maps (google or another)
-- synchronization with Telephone address list?
+- synchronization with Telephone address list
 - Help stuff (any chats program)
 - the system of notifications
 - e-mail
@@ -258,16 +258,16 @@ _\&lt;List and identify any dependencies the proposed solution will have on othe
 - calendar synchronization (google or another)
 - synchronization with social nets and media (FB, instagramm, VK, snapchat)
 - sms services
-- synchronization with wallet ??? credit card ???
--
+- synchronization with wallet, credit card
+
 
 ### 2.3.2. Change Impacts
 The A change: 
--hairdresser recording system
--system for recording clients to supervisors
--system of a reminder about the time of the visit (no need to call customers)
--the market of beauty services
--the sistem of appointment
++ hairdresser recording system
++ system for recording clients to supervisors
++ system of a reminder about the time of the visit (no need to call customers)
++ the market of beauty services
++ the sistem of appointment
 
 <a name="functionalspecifications"></a>
 ## 3. Functional Specifications
@@ -296,10 +296,10 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 | **Trigger** | entrance to registration page |
 | **Pre-conditions** | user has not been registered before | 
 | **Post-conditions** | the user receives his individual account and is registered | 
-| **Main Success Scenario** |  1. visit STARTING-POINT — registration page/2. put data into fields of registration data (name, telephone number, e-mail, social network)/3. click the register button (join)/4. Make sure GOAL-ACHIEVED - Go to the created profile page> |
-| **Extensions** | _1.registration through social networks_ _2.invalid phone number_  _3.retry confirmation code_  _4.Invalid Email_ _5.invalid characters entered in fields_  _6.user with given mail number already exists_ |
+| **Main Success Scenario** |  1. visit STARTING-POINT — registration page<br>  2. put data into fields of registration data (name, telephone number, e-mail, social network)<br> 3. click the register button (join)<br> 4. Make sure GOAL-ACHIEVED - Go to the created profile page> |
+| **Extensions** | 1.registration through social networks<br> 2.invalid phone number<br> 3.retry confirmation code<br> 4.Invalid Email<br> 5.invalid characters entered in fields<br> 6.user with given mail number already exists_ |
 | **Priority** | priority of high|
-| **Special Requirements** |communication with the registration system through social networks communication with the communication system by phone number|
+| **Special Requirements** |communication with the registration system through social networks <br> communication with the communication system by phone number|
 |**Open Questions** |  |
 
 
@@ -355,7 +355,7 @@ _\&lt;Specify all the field data elements related to the functional requirement 
 | **Button, Link, Icon Label** | **OnClick Event** | **Other Event** | **Visible** | **Enabled Vs Disabled** | **Navigate To** | **Validation** | **Dependencies** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | _\&lt;Button label name\&gt;_ | _\&lt;Specify the operation that would be performed on an on-click event\&gt;_ | _\&lt;Specify the operation that would be performed on other events\&gt;_ | _\&lt;Specify default visibility of the button\&gt;_ | _\&lt;Specify if button is enabled or disabled and the condition, if any\&gt;_ | _\&lt;Specify the link where the page will be re-directed, if any\&gt;_ | _\&lt;Specify the validation rules on operation of the button\&gt;_ | _\&lt;Mention if there are any dependencies on other form elements and/ or buttons\&gt;_ |
-| _Button-**login**_ | Move on page with fields of user’s information_ | __ | Yes, always_ | __ | User Dashboard page_ | V_ | Disable the New user functionality on subsequent pages if user logs in through this button._ |
+|Button-**login**_ | Move on page with fields of user’s information_ | __ | Yes, always_ | __ | User Dashboard page_ | V_ | Disable the New user functionality on subsequent pages if user logs in through this button._ |
 |Button- **registration**| Move on  page with fields of user’s information |||||
 |Button-**as spesialist**| Move on  page with fields of user’s information for new spesialists||||
 |Button-**as client**|Move on page with fields of user’s information for new clients||||
