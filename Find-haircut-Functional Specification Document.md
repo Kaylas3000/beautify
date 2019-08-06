@@ -341,24 +341,28 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 | **Primary Actor(s)**|< specialist or client>|
 | **Stakeholders and Interest** |< specialist or client>|
 | **Trigger** | <entrance to registration page> |
-| **Pre-conditions** |<user has not been registered before>| 
-|**Post-conditions|<the user receives his individual account and is registered >| 
+| **Pre-conditions** | <user has not been registered before>| 
+| **Post-conditions** | <the user receives his individual account and is registered > | 
 | **Main Success Scenario** |  
  1. visit STARTING-POINT — registration page
  2. put data into fields of registration data ( name, telephone number, e-mail, social network)
  3. click the register button (join)
  4. Make sure GOAL-ACHIEVED - Go to the created profile page>
  |
-|Extensions|registration through social networks
-invalid phone number
-retry confirmation code
-Invalid Email
-invalid characters entered in fields
-user with given mail number already exists|
+| **Extensions** | 
+1.registration through social networks
+2.invalid phone number
+3.retry confirmation code
+4.Invalid Email
+5.invalid characters entered in fields
+6.user with given mail number already exists
+ |
 |Priority| priority of high|
-|Special Requirements|communication with the registration system through social networks
-communication with the communication system by phone number|
-|Open Questions||
+|Special Requirements|
+-communication with the registration system through social networks
+-communication with the communication system by phone number
+ |
+|Open Questions| --- |
 
 
 | **UC-1** | **\&lt;Use case name\&gt;** |
