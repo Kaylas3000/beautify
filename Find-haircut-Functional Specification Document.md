@@ -1,6 +1,6 @@
 # Functional Specification Document
 
-[![login picture](//placehold.it/150x100)](https://github.com/nzamb1/find-haircut/blob/master/login.jpg)
+![Login picture](https://github.com/nzamb1/find-haircut/blob/master/login.jpg)
 
 
 
