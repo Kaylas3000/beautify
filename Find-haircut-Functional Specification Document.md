@@ -309,13 +309,12 @@ _\&lt;List and identify any dependencies the proposed solution will have on othe
 -
 
 ### 2.3.2. Change Impacts
-
-_\&lt;List and identify existing systems that will be impacted by the implementation of the proposed solution.\&gt;?????????????????????????????????????????????_
-
-the market of beauty services _???_
-
-_the sistem of
-appointment_
+The A change: 
+-hairdresser recording system
+-system for recording clients to supervisors
+-system of a reminder about the time of the visit (no need to call customers)
+-the market of beauty services
+-the sistem of appointment
 
 <a name="functionalspecifications"></a>
 ## 3. Functional Specifications
@@ -335,6 +334,53 @@ _\&lt;Include a high-level description and purpose of the specifications covered
 ### 3.1.2. Use case
 
 _\&lt;Map the functional requirement to one or more use cases mentioned in the Business Requirements document. If the use case is not described in detail in the Business Requirements document, describe the use case here. This typically includes the element s in the following table.\&gt;_
+
+
+UC-1 
+<Registration page> 
+Primary Actor(s)
+< specialist or client>
+Stakeholders and Interest
+< specialist or client>
+Trigger
+<entrance to registration page>
+Pre-conditions
+<user has not been registered before> 
+Post-conditions
+<the user receives his individual account and is registered > 
+Main Success Scenario
+    1. visit STARTING-POINT — registration page
+    2. put data into fields of registration data ( name, telephone number, e-mail, social network)
+    3. click the register button (join)
+    4. Make sure GOAL-ACHIEVED - Go to the created profile page>
+Extensions
+registration through social networks
+invalid phone number
+retry confirmation code
+Invalid Email
+invalid characters entered in fields
+user with given mail number already exists
+Priority
+ priority of high
+Special Requirements
+communication with the registration system through social networks
+communication with the communication system by phone number
+Open Questions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 | **UC-1** | **\&lt;Use case name\&gt;** |
 | --- | --- |
