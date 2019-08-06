@@ -223,33 +223,13 @@ Huawei Honor 8X (1080 x 2340px) + 397ppi
 ### 2.2.1     User Roles and Responsibilities / Authority Requirements
 
 | **User/Role** | **Example** | **Frequency of Use** | **Security/Access, Features Used** | **Additional Notes** |
-| --- | --- | --- | --- | --- | | _\&lt;include the specified user/role such as Purchasing Manager, Dept Admin, Faculty, Student, etc\&gt;_ | _\&lt;include examples of real people  in the role\&gt;_ | _\&lt;describes how often they use the system. State Frequent, Occasional or Rare\&gt;_ | _\&lt;describe the features of the system available for the role and any security/access permissions that should be stated\&gt;_ | _\&lt;add any additional notes or supporting documentation as necessary\&gt;_    | | administrator |   |   |   |   |
+| --- | --- | --- | --- | --- | 
+| _\&lt;include the specified user/role such as Purchasing Manager, Dept Admin, Faculty, Student, etc\&gt;_ | _\&lt;include examples of real people  in the role\&gt;_ | _\&lt;describes how often they use the system. State Frequent, Occasional or Rare\&gt;_ | _\&lt;describe the features of the system available for the role and any security/access permissions that should be stated\&gt;_ | _\&lt;add any additional notes or supporting documentation as necessary\&gt;_    | 
+| administrator |   |   |   |   |
 | programmer |   |   |   |   |
-| disigner |   |   |   |   |
+| disigner |   |   |   |   |  
 | Costomer 1hair cut |   |   |   |   |
-| Costomer 2 |   |   | REGISTRATION:add date: Name Surname e-mail password repeat password sign insign out Home Page:
-1. Сcould select the necessary section in the main menu (directory)
-
-- internal 1.1
-- use the filter when searching (date, time, minimum maximum price, location territorial
-- search by map
-- selection of S :
-
-- service selection
-
-- internal 1.1.1
-  - choosing a convenient time
-  - contact the S phone watches, etc.
-
-1. C can search services in the search bar
-2. C can entry to the S schedule (duplicate calendar)
-3. C can send a request for the selected time of servise
-4. C can receve notifications
-5. C can edit their profile
-6. C can create and redact list of their S
-7. help
-8.  feedback
-   |   |
+| Costomer 2 |   |   | REGISTRATION:add date: Name Surname e-mail password repeat password sign insign out Home Page:1. Сcould select the necessary section in the main menu (directory)- internal 1.1- use the filter when searching (date, time, minimum maximum price, location territorial- search by map- selection of S :- service selection- internal 1.1.1- choosing a convenient time- contact the S phone watches, etc.1. C can search services in the search bar2. C can entry to the S schedule (duplicate calendar)3. C can send a request for the selected time of servise4. C can receve notifications5. C can edit their profile6. C can create and redact list of their S7. help8.  feedback |   |
 | Specialist |   |   | S can edit your calendar:internal 1:- select customerinternal 1.2clients- customer groups- choose a service- session date (start - end)- comment search for customers in the search barinvite customersAdd FB and other applications to attract customers add customer dataphone email birthday synchronization with a notebook create customer groupsnew customersblack listpassive clients |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
