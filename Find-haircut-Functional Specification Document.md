@@ -1,6 +1,6 @@
 # Functional Specification Document
 
-![](//    )
+![](// )
 
 
 
