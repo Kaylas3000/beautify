@@ -316,10 +316,10 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 | **Primary Actor(s)** | S |
 | **Stakeholders and Interest** | Ad |
 | **Trigger** | press the **calendar** button on the previous screen|
-| **Pre-conditions** | |
+| **Pre-conditions** | the desire to create a session. session not created|
 | **Post-conditions** |  |
-| **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar at the screen <br>  2. choose day, week, month calendar <br> 3.  END - add a sassion(s) |
-| **Extensions** | the S can press the bottons of main menu in right top corner of the screen and choose action from here|
+| **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar at the screen <br>  2. choose day, week, month calendar <br> 3.  Make sure GOAL-ACHIEVED - add a sassion(s) |
+| **Extensions** | 1.the S wants to change the information in actual Ss. <br> 2.the S can press the bottons of main menu in right top corner of the screen and choose action from here|
 | **Priority** | priority of highthe S can press the bottons of main menu in right top corner of the screen and choose action from here |
 | **Special Requirements** | synchronization with googl calendar and other, |
 | **Open Questions** | _\&lt;Notes and questions\&gt;_ |
