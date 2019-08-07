@@ -24,7 +24,7 @@
 | 05/07/19 | 0/0 | Initial version. Basic ideas | Strogonova A. |
 | 07/07/19 | 0/1 |   | Sokolov M. |
 |  06/08/19 |0/2   | some information by buttons, redaction of view of document  |   Strogonova A. |
-|   07/08/19| 0/3 |  several screens of screen A from Fluid with discriptions <br> redact the dictionary of termins |  Strogonova A.   |
+|   07/08/19| 0/3 |  several pictures of screen A from "Fluid" with discriptions <br> redact the dictionary of termins |  Strogonova A.   |
 |   |   |   |   |
 
 
@@ -345,10 +345,11 @@ _\&lt;Include a high-level description and purpose of the specifications covered
 _\&lt;Map the functional requirement to one or more use cases mentioned in the Business Requirements document. If the use case is not described in detail in the Business Requirements document, describe the use case here. This typically includes the element s in the following table.\&gt;_
 
 ## Registration part
-### **UC-1** **Registration page** 
+
+
 ![Login picture](https://github.com/nzamb1/find-haircut/blob/master/login.jpg)
 
-| **UC-1** | **Registration page** |
+| **1** | **Registration page** |
 | --- | --- |
 | **Primary Actor(s)**| specialist or client |
 | **Stakeholders and Interest** | specialist or client |
@@ -365,35 +366,58 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 ![today calendar picture](https://github.com/nzamb1/find-haircut/blob/master/1969c23f79.jpg)
 
 ## Calendar
+
 | **2** | **today calendar** |
 | --- | --- |
 | **Primary Actor(s)** | S |
 | **Stakeholders and Interest** | Ad |
 | **Trigger** | sign in after that will open the page **today calendar** |
-| **Pre-conditions** | the desire to create a session. session not created|
+| **Pre-conditions** | the desire to create a session. session not created. check the schedule |
 | **Post-conditions** | session created |
-| **Main Success Scenario** | 1. STARTING-POINT - press to the time line (grid view of the calendar at the screen <br>  2. choose day, week, month calendar <br> 3.  Make sure GOAL-ACHIEVED - add a sassion(s) |
-| **Extensions** | 1.the S wants to change the information in actual Ss. <br> 2.the S can press the icon of main menu in right top corner of the screen and choose action from here <br> 3. leaf the dates of present month by pressing |
+| **Main Success Scenario** | 1. STARTING-POINT - press to the time line (grid view of the calendar at the screen <br>  2. choose day, week, month calendar <br> 3.  Make sure GOAL-ACHIEVED - start to create a sassion(s) |
+| **Extensions** | 1.the S wants to change the information in actual Ss. <br> 2.the S can press the icon of main menu in right top corner of the screen and choose action from here <br> 3. leaf the dates of present month, week by pressing <br> 4. check the schedule <br> |
 | **Priority** | priority of highthe S can press the icon of main menu in right top corner of the screen and choose action from here |
-| **Special Requirements** | synchronization with googl calendar and other |
-| **Open Questions** |  |
+| **Special Requirements** | synchronization with googl calendar and other types of calendars |
+| **Open Questions** | What is the best ways to add sassions? |
 
 
 
 ![calendar menu](https://github.com/nzamb1/find-haircut/blob/master/menu%20create%20session.jpg)
+
 ## Session (creation)
-| **3** | **add session** |
+
+| **3** | **create session** |
 | --- | --- |
 | **Primary Actor(s)** | S |
-| **Stakeholders and Interest** | Ad |
-| **Trigger** | press the **menu** icon on the previous screen|
+| **Stakeholders and Interest** | C |
+| **Trigger** | press the **menu** icon on the right top corner at previous screen|
 | **Pre-conditions** | S wants to add Ss in calendar|
 | **Post-conditions** | create new Ss which S and C can see in their calendar |
-| **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar grid at the screen or icon of main menu, after that appear dropdown menu (top right coner of previus screen) <br>  2. choose the client <br> 3. choose the service or servises <br> 4.choose the day 5. choose the start time <br> choose <br> 5. the duration of seans <br> 6. if need choose the time of breack <br> 7. optional add photos <br> 8. optional add comments to Ss <br>  9. choose colore of the Ss which will be shown in calendar. <br>
-| **Extensions** | 1.return to the current calendar day/week/month menu. <br> 2.Also possible to partially fill in the session <br> information |
+| **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar grid at the screen or icon of main menu, after that appear dropdown menu (top right coner of previus screen) <br>  2. choose the client <br> 3. choose the service or servises <br> 4.choose the day 5. choose the start time <br> 5. the duration of session <br> 6. if need choose the time of breack <br> 7. optional add photos <br> 8. optional add comments to Ss <br>  9. choose colore of the Ss, which will be shown in calendar. <br> 3.  Make sure GOAL-ACHIEVED -  add a sassion(s) with full information.
+| **Extensions** | 1.return to the current calendar day/week/month menu. <br> 2.Also possible to partially fill in the session information<br>  |
 | **Priority** | hight |
-| **Special Requirements** | connection with adress list of phone, Fb, e-mail Connection with calendar of C |
-| **Open Questions** | How to choose faster several servises, which S will do to the same C? Add a function of sms notification for C and alarm for S? |
+| **Special Requirements** | connection with adress phone list, Fb, VK e.t.c., e-mail. Connection with calendar of C |
+| **Open Questions** | How to choose faster several servises, which S will do to the same C? Add a function of sms notification for C and alarm for every S? |
+
+
+![choosing clients menu](https://github.com/nzamb1/find-haircut/blob/master/clients%20list.jpg)
+
+| **4** | **choosing clients for Ss** |
+| --- | --- |
+| **Primary Actor(s)** | S |
+| **Stakeholders and Interest** | C |
+| **Trigger** | press the **client** on the pull down menu of main menu icon|
+| **Pre-conditions** | S wants to add definite C or group of C or several Cs to new session(s)|
+| **Post-conditions** | the C have been choosen for definite Ss |
+| **Main Success Scenario** | 1. STARTING-POINT - press to **client** in dropdown menu <br>  2. choose the client from the App list or search bar <br> 3. return to updated previus page  <br> 4.3.  Make sure GOAL-ACHIEVED - add a definite C in Ss.|
+| **Extensions** | 1.return to the page **create session**. <br> 2. Add new C not from App list by the button **plus** by hand <br> 3. Add groups of Cs. <br> |
+| **Priority** | normal |
+| **Special Requirements** | connection with adress phone list, Fb, VK e.t.c., e-mail. Connection with calendar of C |
+| **Open Questions** | What is the right name of link/button **client**, **plus**?|
+
+
+
+
 
 ### 3.1.3. Mock-up
 
