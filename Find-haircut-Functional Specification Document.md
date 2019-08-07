@@ -139,7 +139,6 @@ The client can select the wizard based on the actual parameters of the location,
 <a name="#relateddocuments"></a>
 ## 1.4 Related documents
 
-
 | **Component** | **Name (with link to the document)** | **Description** |
 | --- | --- | --- |
 |   |   |   |
@@ -156,6 +155,7 @@ The client can select the wizard based on the actual parameters of the location,
 
 
 | **Term/Acronym** | **Definition** | **Description** |
+| --- | --- | --- |
 | A | Application  |  |
 | Ad | Administrator |   |
 | C | Customers | service buyer; person interested in choosing a specialist |
