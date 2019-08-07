@@ -1,9 +1,5 @@
 # Functional Specification Document
 
-![Login picture](https://github.com/nzamb1/find-haircut/blob/master/login.jpg)
-
-
-
 # Master-hand
 
 
@@ -151,19 +147,20 @@ The client can select the wizard based on the actual parameters of the location,
 <a name="terms"></a>
 ## 1.5 Terms/Acronyms and Definitions
 
-Application (A)
 
-Customers (С)
 
-Specialists (S) – hairdressers, makeup artists, stylists, beauticians, nail service &amp; etc.
 
-User (U)
+
+
 
 
 
 | **Term/Acronym** | **Definition** | **Description** |
-| --- | --- | --- |
-|   |   |   |
+| A | Application  |  |
+| Ad | Administrator |   |
+| C | Customers | service buyer; person interested in choosing a specialist |
+| S | Specialists  | hairdressers, makeup artists, stylists, beauticians, nail service &amp; etc. |
+| U | User| all users of the application|
 
 <a name="risks"></a>
 ## 1.6 Risks and Assumptions
@@ -293,6 +290,9 @@ _\&lt;Include a high-level description and purpose of the specifications covered
 _\&lt;Map the functional requirement to one or more use cases mentioned in the Business Requirements document. If the use case is not described in detail in the Business Requirements document, describe the use case here. This typically includes the element s in the following table.\&gt;_
 
 
+### **UC-1** **Registration page** 
+![Login picture](https://github.com/nzamb1/find-haircut/blob/master/login.jpg)
+
 | **UC-1** | **Registration page** |
 | --- | --- |
 | **Primary Actor(s)**| specialist or client |
@@ -307,10 +307,13 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 |**Open Questions** |  |
 
 
-| **UC-1** | **\&lt;Use case name\&gt;** |
+![Login picture](https://github.com/nzamb1/find-haircut/blob/master/login.jpg)
+
+
+| **UC-2** | **today calendar** |
 | --- | --- |
-| **Primary Actor(s)** | _\&lt; primary actors that participate in this use case\&gt;_ |
-| **Stakeholders and Interest** | _\&lt;One sentence describing other stakeholders\&gt;_ |
+| **Primary Actor(s)** | S |
+| **Stakeholders and Interest** | A |
 | **Trigger** | _\&lt;Condition/action that initiates/starts the use-case\&gt;_ |
 | **Pre-conditions** | _\&lt;Condition assumed to be true before the first step\&gt; _ |
 | **Post-conditions** | _\&lt;Condition after the use case is successfully executed \&gt; _ |
