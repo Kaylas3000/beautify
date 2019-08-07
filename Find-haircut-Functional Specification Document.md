@@ -161,7 +161,8 @@ The client can select the wizard based on the actual parameters of the location,
 | C | Customers | service buyer; person interested in choosing a specialist |
 | S | Specialists  | hairdressers, makeup artists, stylists, beauticians, nail service &amp; etc. |
 | U | User| all users of the application|
-
+| Ss | sassion | time of the provision of services with indication of data on the client |
+sassion
 <a name="risks"></a>
 ## 1.6 Risks and Assumptions
 
@@ -311,6 +312,22 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 
 
 | **UC-2** | **today calendar** |
+| --- | --- |
+| **Primary Actor(s)** | S |
+| **Stakeholders and Interest** | Ad |
+| **Trigger** | press the **calendar** button on the previous screen|
+| **Pre-conditions** | |
+| **Post-conditions** |  |
+| **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar at the screen <br>  2. choose day, week, month calendar <br> 3.  END - add a sassion(s) |
+| **Extensions** | If Condition, then Alternative Steps\&lt;List any extended steps/ scenarios that occur, other than the main success scenario.\&gt; |
+| **Priority** | _\&lt;indicate priority of high, medium or low)_ |
+| **Special Requirements** | _\&lt;Any system related special requirements needed to fulfill the use case\&gt;_ |
+| **Open Questions** | _\&lt;Notes and questions\&gt;_ |
+
+
+
+
+| **UC-2** | **add session** |
 | --- | --- |
 | **Primary Actor(s)** | S |
 | **Stakeholders and Interest** | Ad |
