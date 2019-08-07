@@ -282,7 +282,7 @@ _\&lt;Include a high-level description and purpose of the specifications covered
 
 _\&lt;Map the functional requirement to one or more use cases mentioned in the Business Requirements document. If the use case is not described in detail in the Business Requirements document, describe the use case here. This typically includes the element s in the following table.\&gt;_
 
-
+## **Registration part**
 ### **UC-1** **Registration page** 
 ![Login picture](https://github.com/nzamb1/find-haircut/blob/master/login.jpg)
 
