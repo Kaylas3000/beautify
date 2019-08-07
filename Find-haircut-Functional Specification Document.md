@@ -319,9 +319,9 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 | **Pre-conditions** | |
 | **Post-conditions** |  |
 | **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar at the screen <br>  2. choose day, week, month calendar <br> 3.  END - add a sassion(s) |
-| **Extensions** | If Condition, then Alternative Steps\&lt;List any extended steps/ scenarios that occur, other than the main success scenario.\&gt; |
-| **Priority** | _\&lt;indicate priority of high, medium or low)_ |
-| **Special Requirements** | _\&lt;Any system related special requirements needed to fulfill the use case\&gt;_ |
+| **Extensions** | the S can press the bottons of main menu in right top corner of the screen and choose action from here|
+| **Priority** | priority of highthe S can press the bottons of main menu in right top corner of the screen and choose action from here |
+| **Special Requirements** | synchronization with googl calendar and other, |
 | **Open Questions** | _\&lt;Notes and questions\&gt;_ |
 
 
