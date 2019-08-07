@@ -313,11 +313,11 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 | **UC-2** | **today calendar** |
 | --- | --- |
 | **Primary Actor(s)** | S |
-| **Stakeholders and Interest** | A |
-| **Trigger** | _\&lt;Condition/action that initiates/starts the use-case\&gt;_ |
-| **Pre-conditions** | _\&lt;Condition assumed to be true before the first step\&gt; _ |
-| **Post-conditions** | _\&lt;Condition after the use case is successfully executed \&gt; _ |
-| **Main Success Scenario** | 1. _\&lt;visit STARTING-POINT_ 2. _Step_ 3. _Step_ 4. _Make sure GOAL-ACHIEVED\&gt;_|
+| **Stakeholders and Interest** | Ad |
+| **Trigger** | press the **calendar** button on the previous screen|
+| **Pre-conditions** | |
+| **Post-conditions** |  |
+| **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar at the screen <br>  2. choose the client <br> 3. choose the start time <br> 4. choose the duration of seans <br> 4. |
 | **Extensions** | If Condition, then Alternative Steps\&lt;List any extended steps/ scenarios that occur, other than the main success scenario.\&gt; |
 | **Priority** | _\&lt;indicate priority of high, medium or low)_ |
 | **Special Requirements** | _\&lt;Any system related special requirements needed to fulfill the use case\&gt;_ |
