@@ -154,7 +154,57 @@ The client can select the wizard based on the actual parameters of the location,
 | S | Specialists  | hairdressers, makeup artists, stylists, beauticians, nail service &amp; etc. |
 | U | User| all users of the application|
 | Ss | sassion | time of the provision of services with indication of data on the client |
-sassion
+| B |Button | control which can be clicked upon to perform an action. An equivalent to a push-button as found on mechanical or electronic instruments.|
+ |RB|Radio button| control which can be clicked upon to select one option from a selection of options, similar to selecting a radio station from a group of buttons dedicated to radio tuning. Radio buttons always appear in pairs or larger groups, and only one option in the group can be selected at a time; selecting a new item from the group's buttons also de-selects the previously selected button.|
+ |CB|Check box| – control which can be clicked upon to enable or disable an option. Also called a tick box. The box indicates an "on" or "off" state via a check mark/tick ☑ or a cross ☒. Can be shown in an intermediate state (shaded or with a dash) to indicate that various objects in a multiple selection have different values for the property represented by the check box. Multiple check boxes in a group may be selected, in contrast with radio buttons.|
+ |SB|Split button| – control combining a button (typically invoking some default action) and a drop-down list with related, secondary actions.|
+|ClB| Cycle button| - a button that cycles its content through two or more values, thus enabling selection of one from a group of items.
+|Sl| Slider|  – control with a handle that can be moved up and down (vertical slider) or right and left (horizontal slider) on a bar to select a value (or a range if two handles are present). The bar allows users to make adjustments to a value or process throughout a range of allowed values.|
+| Lb| List box| – a graphical control element that allows the user to select one or more items from a list contained within a static, multiple line text box.|
+|Sp|Spinner – value input control which has small up and down buttons to step through a range of values
+|DdL|Drop-down list| – A list of items from which to select. The list normally only displays items when a special button or indicator is clicked.|
+|M| Menu| – control with multiple actions which can be clicked upon to choose a selection to activate.|
+|CM| Context menu| – a type of menu whose contents depend on the context or state in effect when the menu is invoked.|
+|PM| Pie menu| – a circular context menu where selection depends on direction.|
+|Mb|Menu bar| – a graphical control element which contains drop down menus.|
+    Toolbar – a graphical control element on which on-screen buttons, icons, menus, or other input or output elements are placed
+        Ribbon – a hybrid of menu and toolbar, displaying a large collection of commands in a visual layout through a tabbed interface.
+    Combo box (text box with attached menu or List box) – A combination of a single-line text box and a drop-down list or list box, allowing the user to either type a value directly into the control or choose from the list of existing options.
+    Icon – a quickly comprehensible symbol of a software tool, function, or a data file.
+    Tree view – a graphical control element that presents a hierarchical view of information
+    Grid view or datagrid – a spreadsheet-like tabular view of data that allows numbers or text to be entered in rows and columns.
+    #Navigation
+    Link – Text with some kind of indicator (usually underlining and/or color) that indicates that clicking it will take one to another screen or page.
+    Tab – a graphical control element that allows multiple documents or panels to be contained within a single window
+    Scrollbar – a graphical control element by which continuous text, pictures, or any other content can be scrolled in a predetermined direction (up, down, left, or right)
+
+#Text/value input
+
+Text box – (edit field) - a graphical control element intended to enable the user to input text
+    Combo box – a graphical control element combining a drop-down list or list box and a single-line editable textbox
+
+#Output
+Label – text used to describe another widget
+    Tooltip – informational window which appears when the mouse hovers over another control
+    Balloon help
+    Status bar – a graphical control element which poses an information area typically found at the window's bottom
+    Progress bar – a graphical control element used to visualize the progression of an extended computer operation, such as a download, file transfer, or installation
+    Infobar – a graphical control element used by many programs to display non-critical information to a user
+    #Container
+    
+Window – a graphical control element consisting of a visual area containing some of the graphical user interface elements of the program it belongs to
+        Collapsible panel – a panel that can compactly store content which is hidden or revealed by clicking the tab of the widget.
+            Drawer: Side sheets or surfaces containing supplementary content that may be anchored to, pulled out from, or pushed away beyond the left or right edge of the screen.[3]
+        Accordion – a vertically stacked list of items, such as labels or thumbnails where each item can be "expanded" to reveal the associated content
+        Modal window – a graphical control element subordinate to an application's main window which creates a mode where the main window can't be used.
+        Dialog box – a small window that communicates information to the user and prompts for a response
+        Palette window – also known as "Utility window" - a graphical control element which floats on top of all regular windows and offers ready access tools, commands or information for the current application
+            Inspector window – a type of dialog window that shows a list of the current attributes of a selected object and allows these parameters to be changed on the fly
+        Frame – a type of box within which a collection of graphical control elements can be grouped as a way to show relationships visually
+        Canvas – generic drawing element for representing graphical information
+        Cover Flow – an animated, three-dimensional element to visually flipping through snapshots of documents, website bookmarks, album artwork, or photographs.
+        Bubble Flow – an animated, two-dimensional element that allows users to browse and interact the entire tree view of a discussion thread.
+
 <a name="risks"></a>
 ## 1.6 Risks and Assumptions
 
