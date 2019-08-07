@@ -282,7 +282,7 @@ _\&lt;Include a high-level description and purpose of the specifications covered
 
 _\&lt;Map the functional requirement to one or more use cases mentioned in the Business Requirements document. If the use case is not described in detail in the Business Requirements document, describe the use case here. This typically includes the element s in the following table.\&gt;_
 
-## **Registration part**
+## Registration part
 ### **UC-1** **Registration page** 
 ![Login picture](https://github.com/nzamb1/find-haircut/blob/master/login.jpg)
 
@@ -302,7 +302,7 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 
 ![today calendar picture](https://github.com/nzamb1/find-haircut/blob/master/1969c23f79.jpg)
 
-
+## Calendar
 | **2** | **today calendar** |
 | --- | --- |
 | **Primary Actor(s)** | S |
@@ -318,8 +318,8 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 
 
 
-![calendar menu](https://github.com/nzamb1/find-haircut/blob/master/menu%20calendar.jpg)
-
+![calendar menu](https://github.com/nzamb1/find-haircut/blob/master/menu%20create%20session.jpg)
+## Session (creation)
 | **3** | **add session** |
 | --- | --- |
 | **Primary Actor(s)** | S |
