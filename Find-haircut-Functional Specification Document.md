@@ -146,14 +146,6 @@ The client can select the wizard based on the actual parameters of the location,
 <a name="terms"></a>
 ## 1.5 Terms/Acronyms and Definitions
 
-
-
-
-
-
-
-
-
 | **Term/Acronym** | **Definition** | **Description** |
 | --- | --- | --- |
 | A | Application  |  |
@@ -308,10 +300,10 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 |**Open Questions** |  |
 
 
-![Login picture](https://github.com/nzamb1/find-haircut/blob/master/1969c23f79.jpg)
+![today calendar picture](https://github.com/nzamb1/find-haircut/blob/master/1969c23f79.jpg)
 
 
-| **UC-2** | **today calendar** |
+| **2** | **today calendar** |
 | --- | --- |
 | **Primary Actor(s)** | S |
 | **Stakeholders and Interest** | Ad |
@@ -326,19 +318,20 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 
 
 
+![calendar menu](https://github.com/nzamb1/find-haircut/blob/master/menu%20calendar.jpg)
 
-| **UC-2** | **add session** |
+| **3** | **add session** |
 | --- | --- |
 | **Primary Actor(s)** | S |
 | **Stakeholders and Interest** | Ad |
-| **Trigger** | press the **calendar** button on the previous screen|
-| **Pre-conditions** | |
-| **Post-conditions** |  |
-| **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar at the screen <br>  2. choose the client <br> 3. choose the start time <br> 4. choose the duration of seans <br> 4. |
-| **Extensions** | If Condition, then Alternative Steps\&lt;List any extended steps/ scenarios that occur, other than the main success scenario.\&gt; |
-| **Priority** | _\&lt;indicate priority of high, medium or low)_ |
-| **Special Requirements** | _\&lt;Any system related special requirements needed to fulfill the use case\&gt;_ |
-| **Open Questions** | _\&lt;Notes and questions\&gt;_ |
+| **Trigger** | press the **menu** button on the previous screen|
+| **Pre-conditions** | S wants to add Ss in calendar|
+| **Post-conditions** | create new Ss which S and C can see in their calendar |
+| **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar at the screen or dropdown menu (top right coner of previus screen) <br>  2. choose the client <br> 3. choose the service or servises <br> 4.choose the day 5. choose the start time <br> choose <br> 5. the duration of seans <br> 6. if need choose the time of breack <br> 7. optional add photos <br> 8. optional add comments to Ss <br>  9. choose colore of the Ss which will be shown in calendar. <br>
+| **Extensions** | 1.return to the current calendar day/week/month menu. <br> 2.Also possible to partially fill in the session <br> information |
+| **Priority** | hight |
+| **Special Requirements** | connection with adress list of phone, Fb, e-mail Connection with calendar of C |
+| **Open Questions** | How to choose faster several servises, which S will do to the same C? Add a function of sms notification for C and alarm for S? |
 
 ### 3.1.3. Mock-up
 
