@@ -343,7 +343,7 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 | **Trigger** | entrance to registration page |
 | **Pre-conditions** | user has not been registered before | 
 | **Post-conditions** | the user receives his individual account and is registered | 
-| **Main Success Scenario** |  1. visit STARTING-POINT — registration page<br>  2. put data into fields of registration data (name, telephone number, e-mail, social network)<br> 3. click the register button (join)<br> 4. Make sure GOAL-ACHIEVED - Go to the created profile page> |
+| **Main Success Scenario** |  1. visit STARTING-POINT — registration page <br>  2. put data into edit fields of registration data (name, telephone number, e-mail, social network)<br> 3. click the register button (join)<br> 4. Make sure GOAL-ACHIEVED - Go to the created profile page> |
 | **Extensions** | 1.registration through social networks<br> 2.invalid phone number<br> 3.retry confirmation code<br> 4.Invalid Email<br> 5.invalid characters entered in fields<br> 6.user with given mail number already exists_ |
 | **Priority** | priority of high|
 | **Special Requirements** |communication with the registration system through social networks <br> communication with the communication system by phone number|
@@ -357,12 +357,12 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 | --- | --- |
 | **Primary Actor(s)** | S |
 | **Stakeholders and Interest** | Ad |
-| **Trigger** | press the **calendar** button on the previous screen|
+| **Trigger** | sign in after that will open the page **today calendar** |
 | **Pre-conditions** | the desire to create a session. session not created|
 | **Post-conditions** | session created |
-| **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar at the screen <br>  2. choose day, week, month calendar <br> 3.  Make sure GOAL-ACHIEVED - add a sassion(s) |
-| **Extensions** | 1.the S wants to change the information in actual Ss. <br> 2.the S can press the bottons of main menu in right top corner of the screen and choose action from here <br> 3. leaf the dates of present month |
-| **Priority** | priority of highthe S can press the bottons of main menu in right top corner of the screen and choose action from here |
+| **Main Success Scenario** | 1. STARTING-POINT - press to the time line (grid view of the calendar at the screen <br>  2. choose day, week, month calendar <br> 3.  Make sure GOAL-ACHIEVED - add a sassion(s) |
+| **Extensions** | 1.the S wants to change the information in actual Ss. <br> 2.the S can press the icon of main menu in right top corner of the screen and choose action from here <br> 3. leaf the dates of present month by pressing |
+| **Priority** | priority of highthe S can press the icon of main menu in right top corner of the screen and choose action from here |
 | **Special Requirements** | synchronization with googl calendar and other |
 | **Open Questions** |  |
 
@@ -374,10 +374,10 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 | --- | --- |
 | **Primary Actor(s)** | S |
 | **Stakeholders and Interest** | Ad |
-| **Trigger** | press the **menu** button on the previous screen|
+| **Trigger** | press the **menu** icon on the previous screen|
 | **Pre-conditions** | S wants to add Ss in calendar|
 | **Post-conditions** | create new Ss which S and C can see in their calendar |
-| **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar at the screen or dropdown menu (top right coner of previus screen) <br>  2. choose the client <br> 3. choose the service or servises <br> 4.choose the day 5. choose the start time <br> choose <br> 5. the duration of seans <br> 6. if need choose the time of breack <br> 7. optional add photos <br> 8. optional add comments to Ss <br>  9. choose colore of the Ss which will be shown in calendar. <br>
+| **Main Success Scenario** | 1. STARTING-POINT - press to the time line of the calendar grid at the screen or icon of main menu, after that appear dropdown menu (top right coner of previus screen) <br>  2. choose the client <br> 3. choose the service or servises <br> 4.choose the day 5. choose the start time <br> choose <br> 5. the duration of seans <br> 6. if need choose the time of breack <br> 7. optional add photos <br> 8. optional add comments to Ss <br>  9. choose colore of the Ss which will be shown in calendar. <br>
 | **Extensions** | 1.return to the current calendar day/week/month menu. <br> 2.Also possible to partially fill in the session <br> information |
 | **Priority** | hight |
 | **Special Requirements** | connection with adress list of phone, Fb, e-mail Connection with calendar of C |
