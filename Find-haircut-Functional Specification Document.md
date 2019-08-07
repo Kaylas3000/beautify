@@ -195,27 +195,27 @@ The client can select the wizard based on the actual parameters of the location,
 | --- | --- | --- |
 |Lb|Label| – text used to describe another widget.|
 |Tt|Tooltip| – informational window which appears when the mouse hovers over another control.|
-    Balloon help
-    Status bar – a graphical control element which poses an information area typically found at the window's bottom
-    Progress bar – a graphical control element used to visualize the progression of an extended computer operation, such as a download, file transfer, or installation
-    Infobar – a graphical control element used by many programs to display non-critical information to a user
+||Balloon help||
+||Status bar| – a graphical control element which poses an information area typically found at the window's bottom.|
+||Progress bar| – a graphical control element used to visualize the progression of an extended computer operation, such as a download, file transfer, or installation.|
+||Infobar| – a graphical control element used by many programs to display non-critical information to a user.|
     
   ## Container
   
  | **Term/Acronym** | **Definition** | **Description** |  
  | --- | --- | --- |
 |Wn|Window|– a graphical control element consisting of a visual area containing some of the graphical user interface elements of the program it belongs to.|
-        Collapsible panel – a panel that can compactly store content which is hidden or revealed by clicking the tab of the widget.
-            Drawer: Side sheets or surfaces containing supplementary content that may be anchored to, pulled out from, or pushed away beyond the left or right edge of the screen.[3]
-        Accordion – a vertically stacked list of items, such as labels or thumbnails where each item can be "expanded" to reveal the associated content
-        Modal window – a graphical control element subordinate to an application's main window which creates a mode where the main window can't be used.
-        Dialog box – a small window that communicates information to the user and prompts for a response
-        Palette window – also known as "Utility window" - a graphical control element which floats on top of all regular windows and offers ready access tools, commands or information for the current application
-            Inspector window – a type of dialog window that shows a list of the current attributes of a selected object and allows these parameters to be changed on the fly
-        Frame – a type of box within which a collection of graphical control elements can be grouped as a way to show relationships visually
-        Canvas – generic drawing element for representing graphical information
-        Cover Flow – an animated, three-dimensional element to visually flipping through snapshots of documents, website bookmarks, album artwork, or photographs.
-        Bubble Flow – an animated, two-dimensional element that allows users to browse and interact the entire tree view of a discussion thread.
+||Collapsible panel| – a panel that can compactly store content which is hidden or revealed by clicking the tab of the widget.|
+||Drawer| Side sheets or surfaces containing supplementary content that may be anchored to, pulled out from, or pushed away beyond the left or right edge of the screen.|
+||Accordion| – a vertically stacked list of items, such as labels or thumbnails where each item can be "expanded" to reveal the associated content.|
+||Modal window| – a graphical control element subordinate to an application's main window which creates a mode where the main window can't be used.|
+||Dialog box|– a small window that communicates information to the user and prompts for a response.|
+||Palette window| – also known as "Utility window" - a graphical control element which floats on top of all regular windows and offers ready access tools, commands or information for the current application.|
+||Inspector window| – a type of dialog window that shows a list of the current attributes of a selected object and allows these parameters to be changed on the fly.|
+||Frame| – a type of box within which a collection of graphical control elements can be grouped as a way to show relationships visually.|
+||Canvas| – generic drawing element for representing graphical information.|
+||Cover Flow – an animated, three-dimensional element to visually flipping through snapshots of documents, website bookmarks, album artwork, or photographs.|
+||Bubble Flow| – an animated, two-dimensional element that allows users to browse and interact the entire tree view of a discussion thread.|
 
 <a name="risks"></a>
 ## 1.6 Risks and Assumptions
