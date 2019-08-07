@@ -308,7 +308,7 @@ _\&lt;Map the functional requirement to one or more use cases mentioned in the B
 |**Open Questions** |  |
 
 
-![Login picture](https://github.com/nzamb1/find-haircut/blob/master/login.jpg)
+![Login picture](https://raw.githubusercontent.com/nzamb1/find-haircut/master/1969c23f79.jpg)
 
 
 | **UC-2** | **today calendar** |
