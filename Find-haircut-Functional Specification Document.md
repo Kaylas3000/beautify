@@ -21,10 +21,10 @@
 
 | **Date** | **Version** | **Document Revision Description** | **Document Author** |
 | --- | --- | --- | --- |
-| 05/07/19 | 0/0 | Initial version. Basic ideas | Strogonova A. |
-| 07/07/19 | 0/1 |   | Sokolov M. |
-|  06/08/19 |0/2   | some information by buttons, redaction of view of document  |   Strogonova A. |
-|   07/08/19| 0/3 |  several pictures of screen A from "Fluid" with discriptions <br> redact the dictionary of termins |  Strogonova A.   |
+| 05/07/19 | 0.0 | Initial version. Basic ideas | Strogonova A. |
+| 07/07/19 | 0.1 | Minor changes  | Sokolov M. |
+|  06/08/19 |0.2   | added some information about buttons, redaction of view of document  |   Strogonova A. |
+|   07/08/19| 0.3 |  several pictures of screen A from "Fluid" with discriptions <br> redact the dictionary of termins |  Strogonova A.   |
 |   |   |   |   |
 
 
