@@ -1,5 +1,5 @@
 # find-haircut
-Android APP that helps you...
+Android and iOS APP that helps you...
 
 ## Installation
 
