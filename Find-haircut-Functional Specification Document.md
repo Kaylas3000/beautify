@@ -258,9 +258,9 @@ The A change:
 <a name="functionalspecifications"></a>
 ## 3. Functional Specifications
 
-_\&lt;Start describing the specifications related to the overall system here. You may want to create a table/ index of all functionalities explained in the sections below and link them to the items below\&gt;_
+_\Start describing the specifications related to the overall system here. You may want to create a table/ index of all functionalities explained in the sections below and link them to the items below
 
-_\&lt;If no separate reference/ traceability document is created for the project, use this section to map the business requirements, use cases, functional requirements and the test cases\&gt;_
+_\If no separate reference/ traceability document is created for the project, use this section to map the business requirements, use cases, functional requirements and the test cases
 
 _ \&lt;Group your functional specifications as appropriate for your project. You may want to divide them by screens, functional areas, user role, JIRA tickets or high-level functions Vs detailed functions or any other way that works for your project\&gt;_
 
