@@ -13,7 +13,7 @@
 | **Name** | **Role** | **Department** |
 | --- | --- | --- |
 |- Sokolov Mykola |- technical implementation of the project <br> - ideas generator|   |
-|- Strogonova Anastasia |- user experience, design |   |
+| |- user experience, design |   |
 
 
 
@@ -23,9 +23,9 @@
 | --- | --- | --- | --- |
 | 05/07/19 | 0.0 | Initial version. Basic ideas | Strogonova A. |
 | 07/07/19 | 0.1 | Minor changes  | Sokolov M. |
-|  06/08/19 |0.2   | added some information about buttons, redaction of view of document  |   Strogonova A. |
-|   07/08/19| 0.3 |  several pictures of screen A from "Fluid" with discriptions <br> redact the dictionary of termins |  Strogonova A.   |
-|   |   |   |   |
+| 06/08/19 | 0.2 | added some information about buttons, redaction of view of document  |   Strogonova A. |
+| 07/08/19 | 0.3 |  several pictures of screen A from "Fluid" with discriptions <br> redact the dictionary of termins |  Strogonova A.   |
+| 03/03/2021  | 0.4  | Added DMS specification, changed risks section.  | Sokolov M. |
 
 
 
@@ -82,11 +82,13 @@
 
 8.3. [ Data Conversion Specifications ](#dataconversionspecifications)
 
-9. [ References ](#references)
+9. [ Security ](#security)
 
-10. [ Open Issues ](#openissues)
+10. [ References ](#references)
 
-11. [ Appendix ](appendix)
+11. [ Open Issues ](#openissues)
+
+12. [ Appendix ](appendix)
 
 <a name="introduction"></a>
 ## 1. Introduction
@@ -130,11 +132,11 @@ The client can select the wizard based on the actual parameters of the location,
 
 2. technical data
 
-3. interaction of program  with user,
+3. interaction of program  with user
 
 4. interaction of users among themselves
 
-5. the outer view of A
+5. basic design of the application
 
 <a name="relateddocuments"></a>
 ## 1.4 Related documents
@@ -150,11 +152,14 @@ The client can select the wizard based on the actual parameters of the location,
 <a name="risks"></a>
 ## 1.6 Risks and Assumptions
 
+- the idea might be stolen or concurrency will bring better application to the market
 - it is not known what part of the market hides its revenues and therefore will be interested a little in using the application
 - masters will be able to  use  the application dishonest  
-- avoiding interest payment
-- masters will be able to cheat  &quot;likes&quot;, result is distrust to the application. A systematic check of the reality of reviews is needed.
-- lack of media advertising at first
+- avoiding interest payment by masters(masters will take a client contacts instead of using the app)
+- masters will be able to cheat  &quot;likes&quot;, resulting in distrust to the application. A systematic check of the quality of reviews is needed.
+- lack of media advertising. As a result application would not be interesting to audience
+- it might be too difficult to implement all features in time so the customers might quickly loose the interest to the app
+
 
 <a name="systemsolution"></a>
 ## 2.  System/ Solution Overview
@@ -210,8 +215,8 @@ Huawei Honor 8X (1080 x 2340px) + 397ppi
 ### 2.2.1     User Roles and Responsibilities / Authority Requirements
 
 | **User/Role** | **Example** | **Frequency of Use** | **Security/Access, Features Used** | **Additional Notes** |
-| --- | --- | --- | --- | --- | 
-| _\&lt;include the specified user/role such as Purchasing Manager, Dept Admin, Faculty, Student, etc\&gt;_ | _\&lt;include examples of real people  in the role\&gt;_ | _\&lt;describes how often they use the system. State Frequent, Occasional or Rare\&gt;_ | _\&lt;describe the features of the system available for the role and any security/access permissions that should be stated\&gt;_ | _\&lt;add any additional notes or supporting documentation as necessary\&gt;_    | 
+| --- | --- | --- | --- | --- |
+| _\&lt;include the specified user/role such as Purchasing Manager, Dept Admin, Faculty, Student, etc\&gt;_ | _\&lt;include examples of real people  in the role\&gt;_ | _\&lt;describes how often they use the system. State Frequent, Occasional or Rare\&gt;_ | _\&lt;describe the features of the system available for the role and any security/access permissions that should be stated\&gt;_ | _\&lt;add any additional notes or supporting documentation as necessary\&gt;_    |
 | administrator |   |   |   |   |
 | programmer |   |   |   |   |
 | disigner |   |   |   |   |  
@@ -232,23 +237,23 @@ Huawei Honor 8X (1080 x 2340px) + 397ppi
 
 ### 2.3.1. System Dependencies
 
-_\&lt;List and identify any dependencies the proposed solution will have on other systems.\&gt;_
+List and identify any dependencies the proposed solution will have on other systems.
 
 - operative system of users phone
 - maps (google or another)
-- synchronization with Telephone address list
 - Help stuff (any chats program)
 - the system of notifications
 - e-mail
 - check system (personification)
-- calendar synchronization (google or another)
-- synchronization with social nets and media (FB, instagramm, VK, snapchat)
+- synchronization with calendar (google or another)
+- synchronization with Telephone address list
+- synchronization with social media (FB, instagramm, VK, snapchat)
 - sms services
-- synchronization with wallet, credit card
+- synchronization with wallet, credit cards
 
 
 ### 2.3.2. Change Impacts
-The A change: 
+The A change:
 + hairdresser recording system
 + system for recording clients to supervisors
 + system of a reminder about the time of the visit (no need to call customers)
@@ -264,11 +269,24 @@ If no separate reference/ traceability document is created for the project, use 
 
 Group your functional specifications as appropriate for your project. You may want to divide them by screens, functional areas, user role, JIRA tickets or high-level functions Vs detailed functions or any other way that works for your project
 
-## 3.1. \&lt;Title\&gt;
+## 3.1. Database management system
 
-### 3.1.1. Purpose/ Description
+### 3.1.1. Description
 
-_\&lt;Include a high-level description and purpose of the specifications covered in the section.\&gt;_
+Database management system should meet following requirements:
+- reliable (support fault tolerance technology)
+- provide sufficient Performance
+- support backup\restore
+- cost effective, preferably open source, free software
+- data privacy and encryption should be considered
+- data conversion
+
+
+Amazon RDS should be considered. Advantages: ready solution(works out of the box), automatic backup\restore, perfect reliability. Disadvantage: pricing.
+
+MySQL or PostgreSQL inside Amazon EC2 instance. Advantages: Easy to install, cost effective. Disadvantages: does not provide good fault tolerance, there are issues with backup\restore.
+
+Google Firebase. Support real time database, Authentication. Cloud Firestore (noSQL database).
 
 ### 3.1.2. Use case
 
@@ -462,22 +480,26 @@ _\&lt;Provide details on any prerequisites necessary for the conversion. Discuss
 | --- | --- | --- | --- | --- | --- |
 | _\&lt;Source location\&gt;_ | _\&lt;Source Data Element Identifier \&gt;_ | _\&lt;Target location\&gt;_ | _\&lt;Target Data Element Identifier\&gt;_ | _\&lt;Describe rules for Data conversion\&gt;_ | _\&lt;Additional notes\&gt;_ |
 
+<a name="security"></a>
+## 9. Security
+System be compliant with following standards: GDPR.
+
 <a name="references"></a>
-## 9. References
+## 10. References
 
 _\&lt;__List all references to external material used as background information or knowledge for the FSD. Examples may include a compliancy website, Stanford website, etc\&gt;_
 
 <a name="openissues"></a>
-## 10. Open Issues
+## 11. Open Issues
 
 | **Issue ID** | **Issue** | **Raised By** | **Raised On** | **Solution/ Decision** | **Resolved By** | **Resolved On** | **Status** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |   |   |   |   |   |   |   |   |
 
 <a name="appendix"></a>
-## 11. Appendix
+## 12. Appendix
 <a name="terms"></a>
-## 11.1 Terms/Acronyms and Definitions
+## 12.1 Terms/Acronyms and Definitions
 
 | **Term/Acronym** | **Definition** | **Description** |
 | --- | --- | --- |
@@ -532,9 +554,9 @@ _\&lt;__List all references to external material used as background information 
 ||Status bar| – a graphical control element which poses an information area typically found at the window's bottom.|
 ||Progress bar| – a graphical control element used to visualize the progression of an extended computer operation, such as a download, file transfer, or installation.|
 ||Infobar| – a graphical control element used by many programs to display non-critical information to a user.|
-    
+
   ## Container
-  
+
  | **Term/Acronym** | **Definition** | **Description** |  
  | --- | --- | --- |
 |Wn|Window|– a graphical control element consisting of a visual area containing some of the graphical user interface elements of the program it belongs to.|
@@ -549,4 +571,3 @@ _\&lt;__List all references to external material used as background information 
 ||Canvas| – generic drawing element for representing graphical information.|
 ||Cover Flow – an animated, three-dimensional element to visually flipping through snapshots of documents, website bookmarks, album artwork, or photographs.|
 ||Bubble Flow| – an animated, two-dimensional element that allows users to browse and interact the entire tree view of a discussion thread.|
-
