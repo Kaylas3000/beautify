@@ -56,13 +56,17 @@
 
 2. [ System/ Solution Overview ](#systemsolution)
 
-2.1 [ Context Diagram/ Interface Diagram/ Data Flow Diagram, Application Screen Flow, Sitemap, Process Flow ](#contextdiagram)
+2.1. [ Context Diagram/ Interface Diagram/ Data Flow Diagram, Application Screen Flow, Sitemap, Process Flow ](#contextdiagram)
 
 2.2. [ System Actors ](#systemactors)
 
 2.3. [ Dependencies and Change Impacts ](#dependencies)
 
 3. [ Functional Specifications ](#functionalspecifications)
+
+3.1. Database management system
+
+3.2. Authentication and authorization mechanism
 
 4. [ System Configurations ](#systemconfigurations)
 
@@ -269,9 +273,9 @@ If no separate reference/ traceability document is created for the project, use 
 
 Group your functional specifications as appropriate for your project. You may want to divide them by screens, functional areas, user role, JIRA tickets or high-level functions Vs detailed functions or any other way that works for your project
 
-## 3.1. Database management system
+### 3.1. Database management system
 
-### 3.1.1. Description
+#### 3.1.1. Description
 
 Database management system should meet following requirements:
 - reliable (support fault tolerance technology)
@@ -291,6 +295,20 @@ Google Firebase. Support real time database, Authentication. Cloud Firestore (no
 ### 3.1.2. Use case
 
 _Map the functional requirement to one or more use cases mentioned in the Business Requirements document. If the use case is not described in detail in the Business Requirements document, describe the use case here. This typically includes the element s in the following table._
+### 3.2 Authentication and authorization mechanism
+#### 3.2.1. Description
+
+Authentication and authorization might be implemented using google Firebase. It's available for Android as well as for iOS. User roles described in [System Actors section](#systemactors).
+
+Authentication should be available with
+
+- Facebook
+- Gmail
+- Apple
+- Email
+- Phone number
+
+User should be able to logout. User should be able to close the account (probably on setting page). Account should be removed as well as user data after closing account.
 
 ## Registration part
 
