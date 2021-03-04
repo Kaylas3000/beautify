@@ -132,7 +132,7 @@ The client can select the wizard based on the actual parameters of the location,
 
 2. technical data
 
-3. interaction of program  with user
+3. interaction of application with user
 
 4. interaction of users among themselves
 
@@ -216,13 +216,13 @@ Huawei Honor 8X (1080 x 2340px) + 397ppi
 
 | **User/Role** | **Example** | **Frequency of Use** | **Security/Access, Features Used** | **Additional Notes** |
 | --- | --- | --- | --- | --- |
-| _\&lt;include the specified user/role such as Purchasing Manager, Dept Admin, Faculty, Student, etc\&gt;_ | _\&lt;include examples of real people  in the role\&gt;_ | _\&lt;describes how often they use the system. State Frequent, Occasional or Rare\&gt;_ | _\&lt;describe the features of the system available for the role and any security/access permissions that should be stated\&gt;_ | _\&lt;add any additional notes or supporting documentation as necessary\&gt;_    |
-| administrator |   |   |   |   |
+| _include the specified user/role such as Purchasing Manager, Dept Admin, Faculty, Student, etc_ | _include examples of real people  in the role_ | _describes how often they use the system. State Frequent, Occasional or Rare_ | _describe the features of the system available for the role and any security/access permissions that should be stated_ | _add any additional notes or supporting documentation as necessary_    |
+| administrator |   |   | often  |   |
 | programmer |   |   |   |   |
 | disigner |   |   |   |   |  
-| Costomer  |   |   | REGISTRATION:add date: Name Surname e-mail password repeat password sign insign out <br> Home Page: 1. Сcould select the necessary section in the main menu (directory)- internal 1.1- use the filter when searching (date, time, minimum maximum price, location territorial- search by map- selection of S :- service selection- internal 1.1.1- choosing a convenient time- contact the S phone watches, etc. <br> 1. C can search services in the search bar <br>  2. C can entry to the S schedule (duplicate calendar) <br> 3. C can send a request for the selected time of servise <br>  4. C can receve notifications <br>  5. C can edit their profile <br> 6. C can create and redact list of their S <br>  7. help <br> 8.  feedback |   |
-| Specialist |   |   | S can edit your calendar:internal 1:- select customerinternal <br>  1.2clients- customer groups- choose a service- session date (start - end)- comment search for customers in the search barinvite customers <br> Add FB and other applications to attract customers add customer dataphone email birthday synchronization with a notebook create customer groupsnew customersblack listpassive clients |   |
-|   |   |   |   |   |
+| costomer  |   | often | REGISTRATION:add date: Name Surname e-mail password repeat password sign insign out <br> Home Page: 1. Сcould select the necessary section in the main menu (directory)- internal 1.1- use the filter when searching (date, time, minimum maximum price, location territorial- search by map- selection of S :- service selection- internal 1.1.1- choosing a convenient time- contact the S phone watches, etc. <br> 1. C can search services in the search bar <br>  2. C can entry to the S schedule (duplicate calendar) <br> 3. C can send a request for the selected time of servise <br>  4. C can receve notifications <br>  5. C can edit their profile <br> 6. C can create and redact list of their S <br>  7. help <br> 8.  feedback |   |
+| specialist |   | often | S can edit your calendar:internal 1:- select customerinternal <br>  1.2clients- customer groups- choose a service- session date (start - end)- comment search for customers in the search barinvite customers <br> Add FB and other applications to attract customers add customer dataphone email birthday synchronization with a notebook create customer groupsnew customersblack listpassive clients |   |
+| tester  |   | sometimes  |   | Testing user role. Will be assigned for testers.   |
 |   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
@@ -290,7 +290,7 @@ Google Firebase. Support real time database, Authentication. Cloud Firestore (no
 
 ### 3.1.2. Use case
 
-_\&lt;Map the functional requirement to one or more use cases mentioned in the Business Requirements document. If the use case is not described in detail in the Business Requirements document, describe the use case here. This typically includes the element s in the following table.\&gt;_
+_Map the functional requirement to one or more use cases mentioned in the Business Requirements document. If the use case is not described in detail in the Business Requirements document, describe the use case here. This typically includes the element s in the following table._
 
 ## Registration part
 
@@ -381,11 +381,11 @@ _Make sure each specification has a reference number and is explained in the fol
 | --- | --- | --- |
 | _\&lt;Specification Identifier\&gt;_ | _\&lt;Short explanation of the specification\&gt;_ | _\&lt;Any validation rules or business rules\&gt;_ |
 
-_\&lt;Note: Section 3.1.4 and section 3.1.5 may be combined if there are a few functionalities on a particular page\&gt;_
+_Note: Section 3.1.4 and section 3.1.5 may be combined if there are a few functionalities on a particular page_
 
 ### 3.1.5. Field level specifications
 
-_\&lt;Specify all the field data elements related to the functional requirement in both tables below.\&gt;_
+_Specify all the field data elements related to the functional requirement in both tables below._
 
 **Form Elements:**
 
@@ -428,22 +428,22 @@ Disable the New user functionality on subsequent pages if user logs in through t
 <a name="systemconfigurations"></a>
 ## 4. System Configurations
 
-_\&lt;Provide an overview of all the steps or the set ups required to configure an application/program. Also state the intent or purpose behind each set up or configuration. Discuss the possible alternatives, customizations, workaround&#39;s, conditions and dependencies in a particular configuration. In case of Oracle applications, please list all applicable BR100&#39;s or Application set up documents\&gt;_
+_Provide an overview of all the steps or the set ups required to configure an application/program. Also state the intent or purpose behind each set up or configuration. Discuss the possible alternatives, customizations, workaround&#39;s, conditions and dependencies in a particular configuration. In case of Oracle applications, please list all applicable BR100&#39;s or Application set up documents_
 
 <a name="othersystemrequirements"></a>
 ## 5. Other System Requirements/ Non-Functional Requirements
 
-_\&lt;This section is used in contrast with stated functional requirements to highlight the additional details on the quality related aspects as well as other behavioral aspects of a system. This section is used to capture the stakeholders&#39; implicit expectations about how well the system will work under a given circumstance. Here you can  state the specific SLA&#39;s related to system response times (Data search and retrieval), Performance needs and metrics, Latencies in a particular timeframe or during high volume transactions, System failures and recovery management, Security levels and accessibility constraints, Data Backup and archiving Capabilities, Legal compliance needs etc. The broader definition of the term &#39;system&#39; also includes integrations with all types of Mobile platforms, Mobile devices, Tablets and Smart phones.\&gt;_
+_This section is used in contrast with stated functional requirements to highlight the additional details on the quality related aspects as well as other behavioral aspects of a system. This section is used to capture the stakeholders&#39; implicit expectations about how well the system will work under a given circumstance. Here you can  state the specific SLA&#39;s related to system response times (Data search and retrieval), Performance needs and metrics, Latencies in a particular timeframe or during high volume transactions, System failures and recovery management, Security levels and accessibility constraints, Data Backup and archiving Capabilities, Legal compliance needs etc. The broader definition of the term &#39;system&#39; also includes integrations with all types of Mobile platforms, Mobile devices, Tablets and Smart phones._
 
 <a name="reporting"></a>
 ## 6. Reporting Requirements
 
-_\&lt;This section is used to capture the reporting needs, including but not limited to the scope and format of the report, data elements and contents required on the report, file types and extraction mechanisms, user base and accessibility levels, frequency of report extractions etc. Also provide the mock up of the report if needed.  If necessary, create a separate document for reporting requirements.\&gt;_
+_This section is used to capture the reporting needs, including but not limited to the scope and format of the report, data elements and contents required on the report, file types and extraction mechanisms, user base and accessibility levels, frequency of report extractions etc. Also provide the mock up of the report if needed.  If necessary, create a separate document for reporting requirements._
 
 <a name="integration"></a>
 ## 7. Integration Requirements
 
-_\&lt;Identify the integration needs and state all required interfaces with anything external to this solution including hardware, software, and users. Include Architectural overview diagrams, high level data flow diagrams, table structures and schema, interface protocols, API&#39;s, Error conditions, Error validations and messaging needs, Auto processing requirements etc. You can optionally state hardware and software dependencies, Upgrade requirements, compatibility issues with existing frameworks and solutions, etc\&gt;_
+_Identify the integration needs and state all required interfaces with anything external to this solution including hardware, software, and users. Include Architectural overview diagrams, high level data flow diagrams, table structures and schema, interface protocols, API&#39;s, Error conditions, Error validations and messaging needs, Auto processing requirements etc. You can optionally state hardware and software dependencies, Upgrade requirements, compatibility issues with existing frameworks and solutions, etc_
 
 _(Data Flow Diagrams,_ _Interface_ _Diagrams – if necessary)_
 
@@ -451,7 +451,7 @@ _(Data Flow Diagrams,_ _Interface_ _Diagrams – if necessary)_
 <a name="exceptionhandling"></a>
 ## 7.1 Exception Handling/ Error Reporting
 
-_\&lt;This is where you can explain the error conditions/Exceptions that normally happen in Interfaces or cross flow system integrations. Explain the nature of exception, Error Id, Root cause of the error and also the strategy to handle the scenario. You can also indicate if there are any concurrent programs designed to automatically handle the error records or error conditions. State if there are any error reports generated or notifications utilized to alarm the support teams and system Administrators during the interface failures or outages\&gt;_
+_This is where you can explain the error conditions/Exceptions that normally happen in Interfaces or cross flow system integrations. Explain the nature of exception, Error Id, Root cause of the error and also the strategy to handle the scenario. You can also indicate if there are any concurrent programs designed to automatically handle the error records or error conditions. State if there are any error reports generated or notifications utilized to alarm the support teams and system Administrators during the interface failures or outages_
 
 | **Exception/ Error ID** | **Error** | **Cause** | **Solution Strategy** |
 | --- | --- | --- | --- |
@@ -471,7 +471,7 @@ _\&lt;Include the overall strategy for the Data Conversion. This includes how an
 <a name="dataconversionpreparation"></a>
 8.2 Data Conversion Preparation
 
-_\&lt;Provide details on any prerequisites necessary for the conversion. Discuss the backup strategy, restoration process in case the conversion fails.\&gt;_
+_Provide details on any prerequisites necessary for the conversion. Discuss the backup strategy, restoration process in case the conversion fails._
 
 <a name="dataconversionspecifications"></a>
 8.3 Data Conversion Specifications
