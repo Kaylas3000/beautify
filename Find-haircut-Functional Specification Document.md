@@ -369,17 +369,17 @@ _Map the functional requirement to one or more use cases mentioned in the Busine
 
 ### 3.1.3. Mock-up
 
-_\&lt;Provide the mock-up of the functionality or a mock-up of the entire page\&gt;_
+_Provide the mock-up of the functionality or a mock-up of the entire page_
 
 ### 3.1.4.  Functional Requirements
 
-_\&lt;Describe the page level details that are not captured in section 3.1.5 below.  These may include any requirements related to Navigation Menu, Actions, transaction status, verification and validation requirements etc._
+_Describe the page level details that are not captured in section 3.1.5 below.  These may include any requirements related to Navigation Menu, Actions, transaction status, verification and validation requirements etc._
 
-_Make sure each specification has a reference number and is explained in the following format.\&gt;_
+_Make sure each specification has a reference number and is explained in the following format._
 
 | **Spec ID** | **Specification Description** | **Business Rules/ Data Dependency** |
 | --- | --- | --- |
-| _\&lt;Specification Identifier\&gt;_ | _\&lt;Short explanation of the specification\&gt;_ | _\&lt;Any validation rules or business rules\&gt;_ |
+| _Specification Identifier_ | _Short explanation of the specification_ | _Any validation rules or business rules_ |
 
 _Note: Section 3.1.4 and section 3.1.5 may be combined if there are a few functionalities on a particular page_
 
@@ -391,21 +391,21 @@ _Specify all the field data elements related to the functional requirement in bo
 
 | **Call-out** | **Field Label** | **UI Control** | **Mand?** | **Editable** | **Data Type** | **Value Set** | **Default Value** | **Data Example** | **Data Source** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| _\&lt;mock-up reference\&gt;_ | _\&lt;Label name\&gt;_ | _\&lt;specify what UI control will be on screen\&gt;_ | _\&lt;specify if field is mandatory\&gt;_ | _\&lt;specify if field is editable\&gt;_ | _\&lt;Specify the data type that will be used for this field\&gt;_ | _\&lt;If value is from the set, specify the entire value set here\&gt;_ | _\&lt;Specify if it should be defaulted to any value\&gt;_ | _\&lt;Provide an example of the data\&gt;_ | _\&lt;Specify the source of the data\&gt;_ |
+| _mock-up reference_ | _Label name_ | _specify what UI control will be on screen_ | _specify if field is mandatory_ | _specify if field is editable_ | _Specify the data type that will be used for this field_ | _If value is from the set, specify the entire value set here_ | _Specify if it should be defaulted to any value_ | _Provide an example of the data_ | _Specify the source of the data_ |
 | Example: Call-out 1 | User name | textbox | Yes | Yes | Alpha-numeric | none | NA | agujar | User entry |
 
 **Form Business Rules and Dependencies:**
 
 | **Field Label** | **Validation / Business Rules**   | **Error Messages** | **Data Dependencies** | **Additional Info/ Notes** |
 | --- | --- | --- | --- | --- |
-| _\&lt;Label name\&gt;_ | _\&lt;Specify the validation rules and/ or business rules applicable to the form element\&gt;_ | _\&lt;List the error message that should be displayed and under what conditions\&gt;_ | _\&lt;Specify if there are any date dependencies\&gt;_ | _\&lt;Provide any additional information here\&gt;_ |
+| _Label name_ | _Specify the validation rules and/ or business rules applicable to the form element_ | _List the error message that should be displayed and under what conditions_ | _Specify if there are any date dependencies_ | _Provide any additional information here_ |
 | _Example: User name_ | _User name shall be a valid Stanford Sunet ID_ | _For incorrect user name display on setFocusOff: &quot;Please provide a valid user name&quot;_ | _None_ | _Access prohibited only to Stanford affiliates. For non-Stanford affiliates, check call-out 3.1_ |
 
 **Buttons, Links and Icons:**
 
 | **Button, Link, Icon Label** | **OnClick Event** | **Other Event** | **Visible** | **Enabled Vs Disabled** | **Navigate To** | **Validation** | **Dependencies** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| _\&lt;Button label name\&gt;_ | _\&lt;Specify the operation that would be performed on an on-click event\&gt;_ | _\&lt;Specify the operation that would be performed on other events\&gt;_ | _\&lt;Specify default visibility of the button\&gt;_ | _\&lt;Specify if button is enabled or disabled and the condition, if any\&gt;_ | _\&lt;Specify the link where the page will be re-directed, if any\&gt;_ | _\&lt;Specify the validation rules on operation of the button\&gt;_ | _\&lt;Mention if there are any dependencies on other form elements and/ or buttons\&gt;_ |
+| _Button label name_ | _Specify the operation that would be performed on an on-click event_ | _Specify the operation that would be performed on other events_ | _Specify default visibility of the button_ | _Specify if button is enabled or disabled and the condition, if any_ | _Specify the link where the page will be re-directed, if any_ | _Specify the validation rules on operation of the button_ | _Mention if there are any dependencies on other form elements and/ or buttons_ |
 |Button-**login**_ | Move on page with fields of user’s information_ | __ | Yes, always_ | __ | User Dashboard page_ | V_ | Disable the New user functionality on subsequent pages if user logs in through this button._ |
 |Button- **registration**| Move on  page with fields of user’s information |||||
 |Button-**as spesialist**| Move on  page with fields of user’s information for new spesialists||||
@@ -460,13 +460,13 @@ _This is where you can explain the error conditions/Exceptions that normally hap
 <a name="datamigration"></a>
 ## 8. Data Migration/ Conversion Requirements
 
-_\&lt;Explain in brief the data conversion plan._ _Provide full identifying information for the automated system, application, or situation for which the Data Conversion Plan applie __s._ _Describe_ _briefly_ _any assumptions__ , constraints_ _or_ _risks_ _regarding the data conversion effort._ _(Provide details in section 1.6)\&gt;_
+_Explain in brief the data conversion plan._ _Provide full identifying information for the automated system, application, or situation for which the Data Conversion Plan applie __s._ _Describe_ _briefly_ _any assumptions__ , constraints_ _or_ _risks_ _regarding the data conversion effort._ _(Provide details in section 1.6)_
 
 
 <a name="dataconversionstrategy"></a>
 ## 8.1 Data Conversion Strategy
 
-_\&lt;Include the overall strategy for the Data Conversion. This includes how and when you will perform the conversion - the approach used to extract, transform and load data during the conversion process, the conversion schedule, and test plan for testing the converted data.\&gt;_
+_Include the overall strategy for the Data Conversion. This includes how and when you will perform the conversion - the approach used to extract, transform and load data during the conversion process, the conversion schedule, and test plan for testing the converted data._
 
 <a name="dataconversionpreparation"></a>
 8.2 Data Conversion Preparation
@@ -478,7 +478,7 @@ _Provide details on any prerequisites necessary for the conversion. Discuss the 
 
 | **Source** | **Source Data Element** | **Target** | **Target Data Element** | **Conversion Rules** | **Notes** |
 | --- | --- | --- | --- | --- | --- |
-| _\&lt;Source location\&gt;_ | _\&lt;Source Data Element Identifier \&gt;_ | _\&lt;Target location\&gt;_ | _\&lt;Target Data Element Identifier\&gt;_ | _\&lt;Describe rules for Data conversion\&gt;_ | _\&lt;Additional notes\&gt;_ |
+| _Source location_ | _Source Data Element Identifier_ | _Target location_ | _Target Data Element Identifier_ | _Describe rules for Data conversion_ | _Additional notes_ |
 
 <a name="security"></a>
 ## 9. Security
@@ -487,7 +487,7 @@ System be compliant with following standards: GDPR.
 <a name="references"></a>
 ## 10. References
 
-_\&lt;__List all references to external material used as background information or knowledge for the FSD. Examples may include a compliancy website, Stanford website, etc\&gt;_
+_List all references to external material used as background information or knowledge for the FSD. Examples may include a compliancy website, Stanford website, etc_
 
 <a name="openissues"></a>
 ## 11. Open Issues
