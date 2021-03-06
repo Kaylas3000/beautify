@@ -70,6 +70,8 @@
 
 3.3. [ Localization ](#Localization)
 
+3.4. [ Billing (checkout) ](#Billing)
+
 4. [ System Configurations ](#systemconfigurations)
 
 5. [ Other System Requirements/ Non-Functional Requirements ](#othersystemrequirements)
@@ -318,12 +320,14 @@ The application should support localization. All section of the app should suppo
 
 <a name="Billing"></a>
 ### 3.3 Billing (checkout)
-Users should be able to pay for the services by payment cards (credit or debit). User should be able to add a card in their profile. Should be investigated is it's possible t use Google Pay, Apple pay and integrate it the the app (android and iPhone respectively). 
+Users should be able to pay for the services by payment cards (credit or debit). User should be able to add a card in their profile. Should be investigated is it's possible t use Google Pay, Apple pay and integrate it the the app (android and iPhone respectively).
 
 ## Registration part
 
 
-![Login picture](https://github.com/nzamb1/find-haircut/blob/master/login.jpg)
+![Login picture](https://github.com/nzamb1/find-haircut/blob/master/Screen%201.png)
+
+![Registration picture](https://github.com/nzamb1/find-haircut/blob/master/Screen%202.png)
 
 | **1** | **Registration page** |
 | --- | --- |
