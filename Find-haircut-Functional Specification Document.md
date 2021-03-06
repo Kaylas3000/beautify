@@ -26,7 +26,7 @@
 | 06/08/19 | 0.2 | added some information about buttons, redaction of view of document  |   Strogonova A. |
 | 07/08/19 | 0.3 |  several pictures of screen A from "Fluid" with discriptions <br> redact the dictionary of termins |  Strogonova A.   |
 | 03/03/2021  | 0.4  | Added DMS specification, changed risks section.  | Sokolov M. |
-
+| 04/03/2021  | 0.5  | Added authentication and localization sections.  | Sokolov M. |
 
 
 **APPROVALS**
@@ -64,9 +64,11 @@
 
 3. [ Functional Specifications ](#functionalspecifications)
 
-3.1. Database management system
+3.1. [ Database management system ](#Database)
 
-3.2. Authentication and authorization mechanism
+3.2. [ Authentication and authorization mechanism ](#Authentication)
+
+3.3. [ Localization ](#Localization)
 
 4. [ System Configurations ](#systemconfigurations)
 
@@ -221,10 +223,9 @@ Huawei Honor 8X (1080 x 2340px) + 397ppi
 | **User/Role** | **Example** | **Frequency of Use** | **Security/Access, Features Used** | **Additional Notes** |
 | --- | --- | --- | --- | --- |
 | _include the specified user/role such as Purchasing Manager, Dept Admin, Faculty, Student, etc_ | _include examples of real people  in the role_ | _describes how often they use the system. State Frequent, Occasional or Rare_ | _describe the features of the system available for the role and any security/access permissions that should be stated_ | _add any additional notes or supporting documentation as necessary_    |
-| administrator |   |   | often  |   |
-| programmer |   |   |   |   |
-| disigner |   |   |   |   |  
-| costomer  |   | often | REGISTRATION:add date: Name Surname e-mail password repeat password sign insign out <br> Home Page: 1. Сcould select the necessary section in the main menu (directory)- internal 1.1- use the filter when searching (date, time, minimum maximum price, location territorial- search by map- selection of S :- service selection- internal 1.1.1- choosing a convenient time- contact the S phone watches, etc. <br> 1. C can search services in the search bar <br>  2. C can entry to the S schedule (duplicate calendar) <br> 3. C can send a request for the selected time of servise <br>  4. C can receve notifications <br>  5. C can edit their profile <br> 6. C can create and redact list of their S <br>  7. help <br> 8.  feedback |   |
+| administrator |   | often  |   | Superuser. This user has access everywhere.  |
+| developer     |   |        |   | Developer user role. Used for access to the app as developer  |
+| costomer      |   | often  | REGISTRATION:add date: Name Surname e-mail password repeat password sign insign out <br> Home Page: 1. Сcould select the necessary section in the main menu (directory)- internal 1.1- use the filter when searching (date, time, minimum maximum price, location territorial- search by map- selection of S :- service selection- internal 1.1.1- choosing a convenient time- contact the S phone watches, etc. <br> 1. C can search services in the search bar <br>  2. C can entry to the S schedule (duplicate calendar) <br> 3. C can send a request for the selected time of servise <br>  4. C can receve notifications <br>  5. C can edit their profile <br> 6. C can create and redact list of their S <br>  7. help <br> 8.  feedback |   |
 | specialist |   | often | S can edit your calendar:internal 1:- select customerinternal <br>  1.2clients- customer groups- choose a service- session date (start - end)- comment search for customers in the search barinvite customers <br> Add FB and other applications to attract customers add customer dataphone email birthday synchronization with a notebook create customer groupsnew customersblack listpassive clients |   |
 | tester  |   | sometimes  |   | Testing user role. Will be assigned for testers.   |
 |   |   |   |   |   |
@@ -243,7 +244,7 @@ Huawei Honor 8X (1080 x 2340px) + 397ppi
 
 List and identify any dependencies the proposed solution will have on other systems.
 
-- operative system of users phone
+- operating system of users phone
 - maps (google or another)
 - Help stuff (any chats program)
 - the system of notifications
@@ -273,9 +274,8 @@ If no separate reference/ traceability document is created for the project, use 
 
 Group your functional specifications as appropriate for your project. You may want to divide them by screens, functional areas, user role, JIRA tickets or high-level functions Vs detailed functions or any other way that works for your project
 
+<a name="Database"></a>
 ### 3.1. Database management system
-
-#### 3.1.1. Description
 
 Database management system should meet following requirements:
 - reliable (support fault tolerance technology)
@@ -295,8 +295,9 @@ Google Firebase. Support real time database, Authentication. Cloud Firestore (no
 ### 3.1.2. Use case
 
 _Map the functional requirement to one or more use cases mentioned in the Business Requirements document. If the use case is not described in detail in the Business Requirements document, describe the use case here. This typically includes the element s in the following table._
+
+<a name="Authentication"></a>
 ### 3.2 Authentication and authorization mechanism
-#### 3.2.1. Description
 
 Authentication and authorization might be implemented using google Firebase. It's available for Android as well as for iOS. User roles described in [System Actors section](#systemactors).
 
@@ -309,6 +310,15 @@ Authentication should be available with
 - Phone number
 
 User should be able to logout. User should be able to close the account (probably on setting page). Account should be removed as well as user data after closing account.
+
+<a name="Localization"></a>
+### 3.3 Localization
+
+The application should support localization. All section of the app should support translation to different languages. Translation to different languages should be in separate xml file.
+
+<a name="Billing"></a>
+### 3.3 Billing (checkout)
+Users should be able to pay for the services by payment cards (credit or debit). User should be able to add a card in their profile. Should be investigated is it's possible t use Google Pay, Apple pay and integrate it the the app (android and iPhone respectively). 
 
 ## Registration part
 
