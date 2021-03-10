@@ -124,11 +124,12 @@ Will be described in this document:
 ## 1.2. Project Scope
 
 The application solves the following tasks of a small business:
-* attracting customers through targeted advertising
-customer expansion
-* keeping a calendar of the accounting of working hours (dates and time of visits)
-* opportunity for a specialist to plan your day more efficiently
-* a specialist can inform his clients about various promotions thereby increasing sales of his services
+* Attracting customers through targeted advertising. Customer expansion.
+* Customers should be able to find most desirable services nearby(in terms of price and quality).
+* Opportunity for a specialist to plan your day more efficiently.
+* Keeping a calendar for the accounting of working hours (dates and time of visits).
+* A specialist can inform his clients about various promotions thereby increasing sales of his services.
+
 
 The client can select the wizard based on the actual parameters of the location, free time, price range, reviews of other clients, verified photos.
 
@@ -136,15 +137,15 @@ The client can select the wizard based on the actual parameters of the location,
 ## 1.3. Scope of the document
 
 
-1. preliminary analysis of data
+1. Preliminary analysis of data.
 
-2. technical data
+2. Technical details.
 
-3. interaction of application with user
+3. Interaction of application with users.
 
-4. interaction of users among themselves
+4. Interaction of users among themselves (specialists and customers).
 
-5. basic design of the application
+5. Basic design of the application.
 
 <a name="relateddocuments"></a>
 ## 1.4 Related documents
@@ -161,13 +162,13 @@ The client can select the wizard based on the actual parameters of the location,
 <a name="risks"></a>
 ## 1.6 Risks and Assumptions
 
-- the idea might be stolen or concurrency will bring better application to the market
-- it is not known what part of the market hides its revenues and therefore will be interested a little in using the application
-- masters will be able to  use  the application dishonest  
-- avoiding interest payment by masters(masters will take a client contacts instead of using the app)
-- masters will be able to cheat  &quot;likes&quot;, resulting in distrust to the application. A systematic check of the quality of reviews is needed.
-- lack of media advertising. As a result application would not be interesting to audience
-- it might be too difficult to implement all features in time so the customers might quickly loose the interest to the app
+- The idea might be stolen or concurrency will bring better application to the market.
+- It is not known what part of the market hides its revenues and therefore will be interested a little in using the application.
+- Masters will be able to  use  the application dishonest.
+- avoiding interest payment by masters(masters will take a client contacts instead of using the app).
+- Masters will be able to cheat  &quot;likes&quot;, resulting in distrust to the application. A systematic check of the quality of reviews is needed.
+- Lack of media advertising. As a result application would not be interesting to audience.
+- It might be too difficult to implement all features in time so the customers might quickly loose the interest to the app.
 
 
 <a name="systemsolution"></a>
@@ -183,8 +184,6 @@ Galaxy A50 (1080x2340 px),Galaxy A70 (1080 x 2400 px)
 
 Huawei Honor 10 Lite (1080 x 2340px) + 415ppi
 Huawei Honor 8X (1080 x 2340px) + 397ppi
-
-
 
 
 
