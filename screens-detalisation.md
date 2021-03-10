@@ -84,3 +84,35 @@
 | **Priority** | normal |
 | **Special Requirements** | connection with adress phone list, Fb, VK e.t.c., e-mail. Connection with calendar of C |
 | **Open Questions** | What is the right name of link/button **client**, **plus**?|
+
+### 3.1.5. Field level specifications
+
+_Specify all the field data elements related to the functional requirement in both tables below._
+
+**Form Elements:**
+
+| **Call-out** | **Field Label** | **UI Control** | **Mand?** | **Editable** | **Data Type** | **Value Set** | **Default Value** | **Data Example** | **Data Source** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _mock-up reference_ | _Label name_ | _specify what UI control will be on screen_ | _specify if field is mandatory_ | _specify if field is editable_ | _Specify the data type that will be used for this field_ | _If value is from the set, specify the entire value set here_ | _Specify if it should be defaulted to any value_ | _Provide an example of the data_ | _Specify the source of the data_ |
+| Example: Call-out 1 | User name | textbox | Yes | Yes | Alpha-numeric | none | NA | agujar | User entry |
+
+**Form Business Rules and Dependencies:**
+
+| **Field Label** | **Validation / Business Rules**   | **Error Messages** | **Data Dependencies** | **Additional Info/ Notes** |
+| --- | --- | --- | --- | --- |
+| _Label name_ | _Specify the validation rules and/ or business rules applicable to the form element_ | _List the error message that should be displayed and under what conditions_ | _Specify if there are any date dependencies_ | _Provide any additional information here_ |
+| _Example: User name_ | _User name shall be a valid Stanford Sunet ID_ | _For incorrect user name display on setFocusOff: &quot;Please provide a valid user name&quot;_ | _None_ | _Access prohibited only to Stanford affiliates. For non-Stanford affiliates, check call-out 3.1_ |
+
+**Buttons, Links and Icons:**
+
+| **Button, Link, Icon Label** | **OnClick Event** | **Other Event** | **Visible** | **Enabled Vs Disabled** | **Navigate To** | **Validation** | **Dependencies** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| _Button label name_ | _Specify the operation that would be performed on an on-click event_ | _Specify the operation that would be performed on other events_ | _Specify default visibility of the button_ | _Specify if button is enabled or disabled and the condition, if any_ | _Specify the link where the page will be re-directed, if any_ | _Specify the validation rules on operation of the button_ | _Mention if there are any dependencies on other form elements and/ or buttons_ |
+|Button-**login**_ | Move on page with fields of user’s information_ | __ | Yes, always_ | __ | User Dashboard page_ | V_ | Disable the New user functionality on subsequent pages if user logs in through this button._ |
+|Button- **registration**| Move on  page with fields of user’s information |||||
+|Button-**as spesialist**| Move on  page with fields of user’s information for new spesialists||||
+|Button-**as client**|Move on page with fields of user’s information for new clients||||
+|Button-**Help**|Move on  page with help desk||||
+
+
+Disable the New user functionality on subsequent pages if user logs in through this button.
