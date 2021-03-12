@@ -35,7 +35,7 @@
 | **Approval Date** | **Approved Version** | **Approver Role** | **Approver** |
 | --- | --- | --- | --- |
 |   |   | Technical specification  | Mykola Sokolov  |
-|   |   | Functional specification  | Svitlana Socolova  |
+|   |   | Functional specification  | Svitlana Sokolova  |
 
 **Table of Contents**
 
