@@ -1,10 +1,10 @@
 # Functional Specification Document
 
-# Master-hand
+# Master and client hand
 
 
 
-**DOCUMENT VERSION**  **0.1**
+**DOCUMENT VERSION**  **0.6**
 
 
 
@@ -27,6 +27,7 @@
 | 07/08/19 | 0.3 |  several pictures of screen A from "Fluid" with discriptions <br> redact the dictionary of termins |  Strogonova A.   |
 | 03/03/2021  | 0.4  | Added DMS specification, changed risks section.  | Sokolov M. |
 | 04/03/2021  | 0.5  | Added authentication and localization sections.  | Sokolov M. |
+| 04/03/2021  | 0.6  | Moved some sections to separate document. Overall improvement.  | Sokolov M. |
 
 
 **APPROVALS**
