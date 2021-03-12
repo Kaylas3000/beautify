@@ -124,7 +124,7 @@ Will be described in this document:
 
 The application solves the following tasks of a small business:
 * Attracting customers through targeted advertising. Customer expansion.
-* Customers should be able to find most desirable services nearby(in terms of price and quality).
+* Customers should be able to find the most desirable services nearby(in terms of price and quality).
 * Opportunity for a specialist to plan your day more efficiently.
 * Keeping a calendar for the accounting of working hours (dates and time of visits).
 * A specialist can inform his clients about various promotions thereby increasing sales of his services.
@@ -137,14 +137,10 @@ The client can select the wizard based on the actual parameters of the location,
 
 
 1. Preliminary analysis of data.
-
 2. Technical details.
-
 3. Interaction of application with users.
-
 4. Interaction of users among themselves (specialists and customers).
-
-5. Basic design of the application.
+5. The Basic design of the application.
 
 <a name="relateddocuments"></a>
 ## 1.4 Related documents
