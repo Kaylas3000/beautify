@@ -247,20 +247,16 @@ Group your functional specifications as appropriate for your project. You may wa
 <a name="Database"></a>
 ### 3.1. Database management system
 
-Database management system should meet following requirements:
+A database management system should meet the following requirements:
 - reliable (support fault tolerance technology)
 - provide sufficient Performance
 - support backup\restore
-- cost effective, preferably open source, free software
+- cost-effective, preferably open source, free software
 - data privacy and encryption should be considered
 - data conversion
-
-
 Amazon RDS should be considered. Advantages: ready solution(works out of the box), automatic backup\restore, perfect reliability. Disadvantage: pricing.
-
-MySQL or PostgreSQL inside Amazon EC2 instance. Advantages: Easy to install, cost effective. Disadvantages: does not provide good fault tolerance, there are issues with backup\restore.
-
-Google Firebase. Support real time database, Authentication. Cloud Firestore (noSQL database).
+MySQL or PostgreSQL inside Amazon EC2 instance. Advantages: Easy to install, cost-effective. Disadvantages: does not provide good fault tolerance, there are issues with backup\restore.
+Google Firebase. Support real-time database, Authentication. Cloud Firestore (NoSQL database).
 
 ### 3.1.2. Use case
 
@@ -269,7 +265,7 @@ _Map the functional requirement to one or more use cases mentioned in the Busine
 <a name="Authentication"></a>
 ### 3.2 Authentication and authorization mechanism
 
-Authentication and authorization might be implemented using google Firebase. It's available for Android as well as for iOS. User roles described in [System Actors section](#systemactors).
+Authentication and authorization might be implemented using Google Firebase. It's available for Android as well as for iOS. User roles are described in [System Actors section](#systemactors).
 
 Authentication should be available with
 
@@ -279,25 +275,25 @@ Authentication should be available with
 - Email
 - Phone number
 
-User should be able to logout. User should be able to close the account (probably on setting page). Account should be removed as well as user data after closing account.
+The user should be able to logout. The user should be able to close the account (probably on the setting page). The account should be removed as well as user data after closing the account.
 
 <a name="Localization"></a>
 ### 3.3 Localization
 
-The application should support localization. All section of the app should support translation to different languages. Translation to different languages should be in separate xml file.
+The application should support localization. All sections of the app should support translation to different languages. Translation to different languages should be in a separate XML file.
 
 <a name="Billing"></a>
 ### 3.3 Billing (checkout)
-Users should be able to pay for the services by payment cards (credit or debit). User should be able to add a card in their profile. Should be investigated is it's possible t use Google Pay, Apple pay and integrate it the the app (android and iPhone respectively).
+Users should be able to pay for the services by payment cards (credit or debit). Users should be able to add a card to their profile. Should be investigated if it's possible to use Google Pay, Apple pay and integrate them with the app (android and iPhone respectively).
 
 ### 3.4 In app messaging
-Application should support sending and receiving messages (after making a deal between parties)
+The application should support sending and receiving messages (after making a deal between parties)
 
 ### 3.5 Appointment cancellation
-Client or master should be able to cancel appointment (no longer then 3 hours before appointment). If appointment is canceled in less then 3 hour then sanctions should be applied.
+The client or master should be able to cancel an appointment (no longer than 3 hours before the appointment). If an appointment is canceled in less than 3 hours then sanctions should be applied.
 
 ### 3.6 Geolocation
-The application should support geolocation.  The application should identify and estimate the real geographic location of the device. So users should be able to find closest service providers.
+The application should support geolocation.  The application should identify and estimate the real geographic location of the device. So users should be able to find the closest service providers.
 
 ### 3.1.4.  Functional Requirements
 
