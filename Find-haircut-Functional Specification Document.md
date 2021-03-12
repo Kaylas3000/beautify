@@ -12,8 +12,8 @@
 
 | **Name** | **Role** | **Department** |
 | --- | --- | --- |
-|- Sokolov Mykola |- technical implementation of the project <br> - ideas generator|   |
-| |- user experience, design |   |
+| Sokolov Mykola |- technical implementation of the project <br> - ideas generator|   |
+| Svitlana Sokolova|- user experience, design |   |
 
 
 
@@ -36,8 +36,6 @@
 | --- | --- | --- | --- |
 |   |   | Technical specification  | Mykola Sokolov  |
 |   |   | Functional specification  | Svitlana Socolova  |
-|   |   |   |   |
-|   |   |   |   |
 
 **Table of Contents**
 
