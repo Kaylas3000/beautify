@@ -161,13 +161,13 @@ The client can select the wizard based on the actual parameters of the location,
 <a name="risks"></a>
 ## 1.6 Risks and Assumptions
 
-- The idea might be stolen or concurrency will bring better application to the market.
+- The idea might be stolen or concurrency will bring a better application to the market.
 - It is not known what part of the market hides its revenues and therefore will be interested a little in using the application.
-- Masters will be able to  use  the application dishonest.
-- avoiding interest payment by masters(masters will take a client contacts instead of using the app).
-- Masters will be able to cheat  &quot;likes&quot;, resulting in distrust to the application. A systematic check of the quality of reviews is needed.
-- Lack of media advertising. As a result application would not be interesting to audience.
-- It might be too difficult to implement all features in time so the customers might quickly loose the interest to the app.
+- Masters will be able to use the application dishonestly.
+- avoiding interest payment by masters(masters will take client contacts instead of using the app).
+- Masters will be able to cheat "likes", resulting in distrust of the application. A systematic check of the quality of reviews is needed.
+- Lack of media advertising. As a result, the application would not be interesting to an audience.
+- It might be too difficult to implement all features in time so the customers might quickly lose interest in the app.
 
 
 <a name="systemsolution"></a>
