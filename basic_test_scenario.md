@@ -30,28 +30,33 @@
 
 
 # Standard login / logout can include such options:
-
-registration: with a login and password, without a password, through the social network, etc.;
-authorization: with a login and password, through the social network, etc,;
-password recovery;
-logout: standalone, after the session, etc.
+|**Test N** | **Test description**  | **Comments** |
+| --- | --- | --- |
+|   1   | Registration: with a login and password, without a password, through the social network, etc.; | |
+|   2   | Authorization: with a login and password, through the social network, etc,; | |
+|   3   | Password recovery; | |
+|   4   | Logout: standalone, after the session, etc. | |
 
 ## Positive scenarios:
 
-Registration in the application is available with all the methods described in the terms of a technical specification.
-You can register by filling in only the mandatory fields.
-You can register by filling in all the fields completely.
-It is possible to log in to the application after the registration. In this case, the entered data is correctly stored in the profile (e-mail, password, personal information, etc.).
-Registering on one device, you can log in to another – the data is available and correctly stored on the server and available.
-Logout works correctly.
-Password recovery works correctly.
+|**Test N** | **Test description**  | **Comments** |
+| --- | --- | --- |
+|   1   | Registration in the application is available with all the methods described in the terms of a technical specification. | |
+|   2   | User can register by filling in only the mandatory fields. | |
+|   3   | User can register by filling in all the fields completely. | |
+|   4   | It is possible to log in to the application after the registration. In this case, the entered data is correctly stored in the profile (e-mail, password, personal information, etc.). | |
+|   5   | Registering on one device, you can log in to another – the data is available and correctly stored on the server and available. | |
+|   6   | Logout works correctly. | |
+|   7   | Password recovery works correctly. | |
 
 ## Negative scenarios (the most obvious):
 
-Re-registration for the same e-mail with the same login is not available.
-Registration without filling in the mandatory fields is not available.
-Registration, if all the fields are left blank, is unavailable.
-Registration, if the format of the entered data does not meet the requirements, is not available.
-Authorization with empty fields is not available.
-Authorization with a wrong / deleted / blocked login is not available.
-Authorization with incorrect password is not available.
+|**Test N** | **Test description**  | **Comments** |
+| --- | --- | --- |
+|   1   | Re-registration for the same e-mail with the same login is not available. | |
+|   2   | Registration without filling in the mandatory fields is not available. | |
+|   3   | Registration, if all the fields are left blank, is unavailable. | |
+|   4   | Registration, if the format of the entered data does not meet the requirements, is not available. | |
+|   5   | Authorization with empty fields is not available. | |
+|   6   | Authorization with a wrong / deleted / blocked login is not available. | |
+|   7   | Authorization with incorrect password is not available. | |

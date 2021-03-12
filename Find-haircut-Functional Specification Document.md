@@ -33,8 +33,8 @@
 
 | **Approval Date** | **Approved Version** | **Approver Role** | **Approver** |
 | --- | --- | --- | --- |
-|   |   |   |   |
-|   |   |   |   |
+|   |   | Technical specification  | Mykola Sokolov  |
+|   |   | Functional specification  | Svitlana Socolova  |
 |   |   |   |   |
 |   |   |   |   |
 
@@ -301,6 +301,8 @@ Application should support sending and receiving messages (after making a deal b
 ### 3.5 Appointment cancellation
 Client or master should be able to cancel appointment (no longer then 3 hours before appointment). If appointment is canceled in less then 3 hour then sanctions should be applied.
 
+### 3.6 Geolocation
+The application should support geolocation.  The application should identify and estimate the real geographic location of the device. So users should be able to find closest service providers.
 
 ### 3.1.4.  Functional Requirements
 
