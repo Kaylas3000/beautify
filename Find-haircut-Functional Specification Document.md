@@ -295,6 +295,25 @@ The client or master should be able to cancel an appointment (no longer than 3 h
 ### 3.6 Geolocation
 The application should support geolocation.  The application should identify and estimate the real geographic location of the device. So users should be able to find the closest service providers.
 
+### 3.7 Push notifications
+Specialists must be able to see the details of service requests submitted by users.
+Customers should be able to receive updates
+- bookings
+- payments
+- cancellations
+- promotions and offers
+- discounts
+
+### 3.8 Booking History
+Specialists as well as customers should be able to see past bookings and booking details like:
+- booking time
+- booking date
+- ordered services
+- service price
+
+Specialists should be able to see reviews left by customers.
+
+
 ### 3.1.4.  Functional Requirements
 
 _Describe the page level details that are not captured in section 3.1.5 below.  These may include any requirements related to Navigation Menu, Actions, transaction status, verification and validation requirements etc._
