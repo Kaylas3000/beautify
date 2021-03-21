@@ -1,4 +1,4 @@
-# find-haircut
+# beautify
 Android and iOS APP that helps you...
 
 ## Installation
