@@ -67,7 +67,7 @@
 |“Submit button” |When user clicks on submit button then filter is applied and user is redirected back to the dashboard.|On the button there is a text showing maximum available services and services after applying filter.|
 
 ## 1.2. Map
-![Map screen] (https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2019CLI.png)
+![Map screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2019CLI.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -78,7 +78,7 @@
 |The screen displays the map. The map shows the location of the person and nearby services|After selecting a salon on the map, can go to the service page.|
 
 ## 1.3. Salon`s page
-![Salon screen] (https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2017CLI.png)
+![Salon screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2017CLI.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -91,7 +91,7 @@
 |Button "Book"|When user clicks on "Book" button and user is redirected to the page "Book appointment"||
 
 ## 1.4. Book appointment
-![Book appointment] (https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2016CLI.png)
+![Book appointment](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2016CLI.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
