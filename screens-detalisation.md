@@ -1,5 +1,5 @@
 # All screens
-![All screen](https://github.com/Kaylas3000/beautify/blob/master/All-screens.png)
+![All screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/All-screens.png)
 # Login and registration
 
 
