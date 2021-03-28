@@ -52,12 +52,12 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-|menu back to the Dashboard|||
+|Menu back to the Dashboard|||
 |Text line with name of the window.||
 |Text with name of the filter “Gender”.||
 | 3 radio buttons|User can apply a filter “Woman”/ “Man”/ “Kid”.||
 |Text with name of the filter “Services”.||
-|Different filters: Hair cut”, “Hair Styling”, “Hair Coloring”, “Trim & Shaving”, “Make up”, “Facial Make up”, “Manicure”, “Pedicure”, “Gel polish”, “Spa”, “Limphatic drainage massage”, “Classic massage”, “Relaxing massage”, “Men`s epilation”, “Waxing”, “Photoepilation”, “Sugaring”.||
+|Different filters: ”Hair cut”, “Hair Styling”, “Hair Coloring”, “Trim & Shaving”, “Make up”, “Facial Make up”, “Manicure”, “Pedicure”, “Gel polish”, “Spa”, “Limphatic drainage massage”, “Classic massage”, “Relaxing massage”, “Men`s epilation”, “Waxing”, “Photoepilation”, “Sugaring”.||
 |Text with name of the filter “Raiting”.||
 |Filter "stars"|User should be able to filter salons with minimal required rating.|Default value is "any raiting"|
 |Text with name of the filter “Distance”.||
@@ -65,3 +65,36 @@
 |Text with name of the filter “Price”.||
 |Price filter(slider)|Service should be shown in selected price range(lower and higher)|Default value is: form 0 to maximum|
 |“Submit button” |When user clicks on submit button then filter is applied and user is redirected back to the dashboard.|On the button there is a text showing maximum available services and services after applying filter.|
+
+## 1.2. Map
+![Map screen] (https://github.com/Kaylas3000/beautify/blob/master/Screen%20map.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Menu back to the Dashboard|||
+|Text line with name of the request||
+|Button back to the Menu||
+|Button search||
+|The screen displays the map. The map shows the location of the person and nearby services|After selecting a salon on the map, can go to the service page.|
+
+## 1.3. Salon`s page
+![Salon screen] (https://github.com/Kaylas3000/beautify/blob/master/Screen%20salon%20page.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Buton back to the Map|||
+|At the top of the screen is a photo of the salon.|There is a possibility to scroll the photos.||
+|Below is information about the services.|The "stars" button displays the rating of the service.||
+|Text with name of the "Service"|A list of salon services with photos are displayed.||
+|Below are icon "pin" with service address||
+|Under text with name "Gallery"|There is a possibility to add photos with works of masters||
+|Button "Book"|When user clicks on "Book" button and user is redirected to the page "Book appointment"||
+
+## 1.4. Book appointment
+![Book appointment] (https://github.com/Kaylas3000/beautify/blob/master/Book%20appointment.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu" back to the menu|||
+|Text line with name of the window||
+|Button "Back" to the "Salon`s page"||
