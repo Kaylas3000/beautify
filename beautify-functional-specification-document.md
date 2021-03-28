@@ -239,12 +239,6 @@ The A change:
 <a name="functionalspecifications"></a>
 ## 3. Functional Specifications
 
-Start describing the specifications related to the overall system here. You may want to create a table/ index of all functionalities explained in the sections below and link them to the items below
-
-If no separate reference/ traceability document is created for the project, use this section to map the business requirements, use cases, functional requirements and the test cases
-
-Group your functional specifications as appropriate for your project. You may want to divide them by screens, functional areas, user role, JIRA tickets or high-level functions Vs detailed functions or any other way that works for your project
-
 <a name="Database"></a>
 ### 3.1. Database management system
 
@@ -313,11 +307,6 @@ Specialists as well as customers should be able to see past bookings and booking
 - service price
 
 Specialists should be able to see reviews left by customers.
-
-
-### 3.1.4.  Functional Requirements
-
-_Describe the page level details that are not captured in section 3.1.5 below.  These may include any requirements related to Navigation Menu, Actions, transaction status, verification and validation requirements etc._
 
 _Make sure each specification has a reference number and is explained in the following format._
 
