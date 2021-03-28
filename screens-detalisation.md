@@ -2,7 +2,7 @@
 ## Login and registration
 
 
-![Login picture](https://github.com/nzamb1/find-haircut/blob/master/Screen%201.png)
+![Login picture](https://github.com/Kaylas3000/beautify/blob/master/SignUp-1.png)
 
 |  | **Login page** |
 | --- | --- |
@@ -17,7 +17,7 @@
 | **Special Requirements** |communication with the login system through social networks <br> communication with the login system by phone number|
 |**Open Questions** |  |
 
-![Registration picture](https://github.com/nzamb1/find-haircut/blob/master/SignUp-1.png)
+![Registration picture](https://github.com/nzamb1/find-haircut/blob/master/SignUp-2.png)
 
 | **1** | **Registration page** |
 | --- | --- |
