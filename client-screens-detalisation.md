@@ -95,7 +95,7 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-|Button "Menu" back to the menu|||
+|Button "Menu"|Tapping on menu button open menu||
 |Text line with name of the window||
 |Button "Back" to the "Salon`s page"||
 |"Slider"|There are 3 points on the slider. Each point is signed. Active position is highlighted in blue|First: "Book appointment", second: "Payment", third: "Finished"||
