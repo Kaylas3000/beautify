@@ -17,7 +17,7 @@
 | **Special Requirements** |communication with the login system through social networks <br> communication with the login system by phone number|
 |**Open Questions** |  |
 
-![Registration picture](https://github.com/nzamb1/find-haircut/blob/master/Screen%202.png)
+![Registration picture](https://github.com/nzamb1/find-haircut/blob/master/SignUp-1.png)
 
 | **1** | **Registration page** |
 | --- | --- |
