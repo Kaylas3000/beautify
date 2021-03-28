@@ -147,7 +147,7 @@ The client can select the wizard based on the actual parameters of the location,
 
 | **Component** | **Name (with link to the document)** | **Description** |
 | --- | --- | --- |
-|   | [ Screens detailing ](https://github.com/nzamb1/find-haircut/blob/master/screens-detalisation.md)  |   |
+|   | [ Screens detailing ](https://github.com/nzamb1/find-haircut/blob/master/client-screens-detalisation.md)  |   |
 |   | [ Simple test scenarios ](https://github.com/nzamb1/find-haircut/blob/master/basic_test_scenario.md) | list of basic test cases  |
 
 <a name="terms"></a>
