@@ -51,7 +51,7 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-| button menu back to the Dashboard|||
+|menu back to the Dashboard|||
 |Text line with name of the window.||
 |Text with name of the filter “Gender”.||
 | 3 radio buttons|User can apply a filter “Woman”/ “Man”/ “Kid”.||
@@ -63,3 +63,4 @@
 |Distance filter(slider)|Allows client to adjust the distance from his\her location to the services. Services should be showed where distance is larger then filter.|Default value is 20 km|
 |Text with name of the filter “Price”.||
 |Price filter(slider)|Service should be shown in selected price range(lower and higher)|Default value is: form 0 to maximum|
+|“Submit button” |When user clicks on submit button then filter is applied and user is redirected back to the dashboard.|On the button there is a text showing maximum available services and services after applying filter.|
