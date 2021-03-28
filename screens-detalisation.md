@@ -1,5 +1,5 @@
 
-## Login and registration
+# Login and registration
 
 
 ![Login picture](https://github.com/Kaylas3000/beautify/blob/master/SignUp-1.png)
@@ -33,23 +33,19 @@
 |**Open Questions** |  |
 
 
-![today calendar picture](https://github.com/nzamb1/find-haircut/blob/master/1969c23f79.jpg)
 
-## Calendar
+# 1. Client
+## 1.1 Dashboard
+![Dashboard screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2012CLI.png)
 
-| **2** | **today calendar** |
-| --- | --- |
-| **Primary Actor(s)** | S |
-| **Stakeholders and Interest** | Ad |
-| **Trigger** | sign in after that will open the page **today calendar** |
-| **Pre-conditions** | the desire to create a session. session not created. check the schedule |
-| **Post-conditions** | session created |
-| **Main Success Scenario** | 1. STARTING-POINT - press to the time line (grid view of the calendar at the screen <br>  2. choose day, week, month calendar <br> 3.  Make sure GOAL-ACHIEVED - start to create a sassion(s) |
-| **Extensions** | 1.the S wants to change the information in actual Ss. <br> 2.the S can press the icon of main menu in right top corner of the screen and choose action from here <br> 3. leaf the dates of present month, week by pressing <br> 4. check the schedule <br> |
-| **Priority** | priority of highthe S can press the icon of main menu in right top corner of the screen and choose action from here |
-| **Special Requirements** | synchronization with googl calendar and other types of calendars |
-| **Open Questions** | What is the best ways to add sassions? |
 
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Search box|Search for offers. User types a search confition. Offers should be filtered according to search text.|At the top of the screen|
+|Button “Find”||Located under search box from the left side.|
+|Button “Map”||Located is under search box from the right side.|
+|Filter button|When user click on the button then user is redirected to another page with different filters.||
+|All offers|There is offers scrolling option.||
 
 
 ![calendar menu](https://github.com/nzamb1/find-haircut/blob/master/menu%20create%20session.jpg)
