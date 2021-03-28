@@ -1,4 +1,5 @@
-
+# All screens
+![All screen](https://github.com/Kaylas3000/beautify/blob/master/All-screens.png)
 # Login and registration
 
 
