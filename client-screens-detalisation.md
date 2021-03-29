@@ -136,7 +136,7 @@ The user should be able to register an account (select "client") on the SignUp S
 |Text line with name of the window||
 |Button "Back" to the "Payment"||
 |Below, credit cards displayed|Under credit cards are two buttons "Delete card" and "Add new card"|Credit cards can be one, two or more. If the user does not have a credit card, he can add a card by clicking the "Add new credit card" button. And the user redirected to the "Add New Card" page.||
-|Button "Pay now"|When user click button, he redirected to the page "You payment was successful"||
+|Button "Pay now"|When user click button, he redirected to the page "You payment was successful" or page "Payment failed"||
 
 ## 1.7. Add new card
 ![Add new card](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%206CLI.png)
@@ -151,5 +151,7 @@ The user should be able to register an account (select "client") on the SignUp S
 |Text line with "Card number"|Under, is rectangle|User can write his card number||
 |Text line with "Expiry Date"|Under, is rectangle|User can write expiry date his card||
 |Text line with "CVV"|Under, is rectangle|User can write CVV his card||
-|Button "Add new card"|When user click button, he redirected to the page "Add payment card"||
+|Button "Add new card"|When user click button, he redirected to the page "Payment card has been added" and then "Add payment card"||
 ||User can go to the page from the "Settings" page||
+
+## 1.8. 
