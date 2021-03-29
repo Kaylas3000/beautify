@@ -1,5 +1,6 @@
 # All screens
 ![All screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/All-screens.png)
+![All screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/All-screens-login.png)
 
 # Introduction
 This document describes only a Client(Customer) part. Service provider(specialist) part described in the [specialist document](https://github.com/Kaylas3000/beautify/blob/master/specialist-screens-detalisation.md).
