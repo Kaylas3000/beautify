@@ -100,4 +100,48 @@
 |Button "Back" to the "Salon`s page"||
 |"Slider"|There are 3 points on the slider. Each point is signed. Active position is highlighted in blue|First: "Book appointment", second: "Payment", third: "Finished"||
 |Below, is line with month and arrows|Under, is the calendar|User can select day, month, year||
-|Time||
+|text with name of the "Time"|User can select free time|Near, is slider with "AP" or "PM"||
+|Text with name of the "Service"|Under is filter with type of service and icon "forward"||
+|Text with name of the "Hair Specialist"|Bellow, are photo with specialists, who  provides these services|Each photo of a specialist is signed||
+|Button "Procced to Payment"|When user click button, he redirected to the page "Payment"||
+
+## 1.5. Payment
+![Payment](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%208CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on menu button open menu||
+|Text line with name of the window||
+|Button "Back" to the "Salon`s page"||
+|"Slider"|There are 3 points on the slider. Each point is signed. Active position is highlighted in blue|First: "Book appointment", second: "Payment", third: "Finished"||
+|Text with name of the "Your payment information"||
+|Text with name of the "Name of the service"(for ex. Zara`s salon)|The types of services of all selected services. The cost of all selected services (total payment ... CZK)||
+|Text with name of the "Payment methods"|Under, are methods of payment: credit card or cash|User can select payment method. When user selected, a checkmark icon appears near the method||
+|Button "Continue"|When user click button, he redirected to the page "Add payment card"||
+
+## 1.6. Add payment card
+![Add payment card](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%207CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on menu button open menu||
+|Text line with name of the window||
+|Button "Back" to the "Payment"||
+|Below, credit cards displayed|Under credit cards are two buttons "Delete card" and "Add new card"|Credit cards can be one, two or more. If the user does not have a credit card, he can add a card by clicking the "Add new credit card" button. And the user redirected to the "Add New Card" page.||
+|Button "Pay now"|When user click button, he redirected to the page "You payment was successful"||
+
+## 1.7. Add new card
+![Add new card](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%206CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on menu button open menu||
+|Text line with name of the window||
+|Button "Back" to the "Add payment card"||
+|Below, icon credit cards displayed||
+|Text line with "Card holder’s name"|Under, is rectangle|User can write his name||
+|Text line with "Card number"|Under, is rectangle|User can write his card number||
+|Text line with "Expiry Date"|Under, is rectangle|User can write expiry date his card||
+|Text line with "CVV"|Under, is rectangle|User can write CVV his card||
+|Button "Add new card"|When user click button, he redirected to the page "Add payment card"||
+||User can go to the page from the "Settings" page||
