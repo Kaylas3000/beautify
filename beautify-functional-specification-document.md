@@ -185,7 +185,7 @@ Huawei Honor 8X (1080 x 2340px) + 397ppi
 
 Customers screen flow:
 
-![Application Screen Flow](https://github.com/nzamb1/find-haircut/blob/master/scenario.png)
+![Application Screen Flow](https://github.com/Kaylas3000/beautify/blob/master/scenario.png)
 
 
 
