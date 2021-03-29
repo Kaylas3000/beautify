@@ -46,6 +46,8 @@
 |Button “Map”||Located is under search box from the right side.|
 |Filter button|When user click on the button then user is redirected to another page with different filters.||
 |All offers|There is offers scrolling option.||
+|Button "Book now"|Procedd of booking a service. User should be able to continue in booking a service by clicking this button||
+|Picture of service provider|This is a picture that service provider(saloon) uploaded||
 
 ## 1.1 Filters
 ![Filters screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2015CLI.png)
