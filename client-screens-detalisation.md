@@ -2,11 +2,25 @@
 ![All screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/All-screens.png)
 ![All screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/All-screens-login.png)
 
-# Introduction
+**Table of Contents**
+1. [ Introduction ](#introduction)
+2. [ Login and registration ](#login)
+3. [ Dashboard ](#dashboard)
+4. [ Filters ](#filters)
+5. [ Map ](#map)
+6. [ Salon's page ](#salonspage)
+7. [ Book appointment ](#bookappointment)
+8. [ Payment ](#payment)
+9. [ Add payment card ](#addpaymentcard)
+10. [ Add new card ](#addnewcard)
+
+<a name="introduction"></a>
+# 1. Introduction
 This document describes only a Client(Customer) part. Service provider(specialist) part described in the [specialist document](https://github.com/Kaylas3000/beautify/blob/master/specialist-screens-detalisation.md).
 The user should be able to register an account (select "client") on the SignUp Screen). After Registration user is redirected to the dashboard where he\she should be able to book a service like a Haircut, Makeup, Manicure, etc. Users should be able to filter services according to his\her location, price range, service name, etc. The user should be able to open a map where he\she should click on the nearest service and book it.
 
-# Login and registration
+<a name="login"></a>
+# 2. Login and registration
 
 
 ![Login picture](https://github.com/Kaylas3000/beautify/blob/master/SignUp-1.png)
@@ -39,9 +53,8 @@ The user should be able to register an account (select "client") on the SignUp S
 | **Special Requirements** |communication with the registration system through social networks <br> communication with the communication system by phone number|
 |**Open Questions** |  |
 
-
-# 1. Client
-## 1.1 Dashboard
+<a name="dashboard"></a>
+# 3. Dashboard
 ![Dashboard screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2012CLI.png)
 
 
@@ -55,7 +68,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Button "Book now"|Procedd of booking a service. User should be able to continue booking a service by clicking this button||
 |Picture of service provider|This is a picture that the service provider(saloon) uploaded||
 
-## 1.1 Filters
+<a name="filters"></a>
+# 4. Filters
 ![Filters screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2015CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -74,7 +88,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Price filter(slider)|Service should be shown in the selected price range(lower and higher)|Default value is form 0 to maximum|
 |“Submit button” |When a user clicks on submit button then the filter is applied and the user is redirected back to the dashboard.|On the button, there is a text showing maximum available services and services after applying the filter.|
 
-## 1.2. Map
+<a name="map"></a>
+# 5. Map
 ![Map screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2019CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -85,7 +100,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Button search||
 |The screen displays the map. The map shows the location of the person and nearby services|After selecting a salon on the map, can go to the service page.|
 
-## 1.3. Salon`s page
+<a name="salonspage"></a>
+# 6. Salon's page
 ![Salon screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2017CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -98,7 +114,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Under text with name "Gallery"|There is a possibility to add photos with works of masters||
 |Button "Book"|When user clicks on "Book" button and user is redirected to the page "Book appointment"||
 
-## 1.4. Book appointment
+<a name="bookappointment"></a>
+# 7. Book appointment
 ![Book appointment](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2016CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -113,7 +130,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Text with name of the "Hair Specialist"|Bellow, are photo with specialists, who  provides these services|Each photo of a specialist is signed||
 |Button "Procced to Payment"|When user click button, he redirected to the page "Payment"||
 
-## 1.5. Payment
+<a name="payment"></a>
+# 8. Payment
 ![Payment](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%208CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -127,7 +145,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Text with name of the "Payment methods"|Under, are methods of payment: credit card or cash|User can select payment method. When user selected, a checkmark icon appears near the method||
 |Button "Continue"|When user click button, he redirected to the page "Add payment card"||
 
-## 1.6. Add payment card
+<a name="addpaymentcard"></a>
+# 9. Add payment card
 ![Add payment card](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%207CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -138,7 +157,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Below, credit cards displayed|Under credit cards are two buttons "Delete card" and "Add new card"|Credit cards can be one, two or more. If the user does not have a credit card, he can add a card by clicking the "Add new credit card" button. And the user redirected to the "Add New Card" page.||
 |Button "Pay now"|When user click button, he redirected to the page "You payment was successful" or page "Payment failed"||
 
-## 1.7. Add new card
+<a name="addnewcard"></a>
+# 10. Add new card
 ![Add new card](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%206CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -153,5 +173,3 @@ The user should be able to register an account (select "client") on the SignUp S
 |Text line with "CVV"|Under, is rectangle|User can write CVV his card||
 |Button "Add new card"|When user click button, he redirected to the page "Payment card has been added" and then "Add payment card"||
 ||User can go to the page from the "Settings" page||
-
-## 1.8. 
