@@ -100,7 +100,7 @@
 <a name="introduction"></a>
 ## 1. Introduction
 
-The application to provide the relationship between customers(С) and craftsmen (service providers-SP) - hairdressers, makeup artists, nail art masters, cosmetologists, barber shops &amp; etc.
+The application to provide the relationship between customers(С) and craftsmen (service providers, specialists) - hairdressers, makeup artists, nail art masters, cosmetologists, barber shops &amp; etc.
 
 <a name="purpose"></a>
 ## 1.1. Purpose of the document
@@ -123,14 +123,12 @@ Will be described in this document:
 ## 1.2. Project Scope
 
 The application solves the following tasks of a small business:
-* Attracting customers through targeted advertising. Customer expansion.
 * Customers should be able to find the most desirable services nearby(in terms of price and quality).
 * Opportunity for a specialist to plan your day more efficiently.
 * Keeping a calendar for the accounting of working hours (dates and time of visits).
 * A specialist can inform his clients about various promotions thereby increasing sales of his services.
-
-
-The client can select the wizard based on the actual parameters of the location, free time, price range, reviews of other clients, verified photos.
+* Attracting customers through targeted advertising. Customer expansion.
+* The client can use the search filter based on the actual parameters of the location, free time, price range, reviews of other clients, verified photos.
 
 <a name="scopedocument"></a>
 ## 1.3. Scope of the document
@@ -172,12 +170,11 @@ The client can select the wizard based on the actual parameters of the location,
 
 Mobile application for android (Android mobile operating system 7.0 and newer) and iOS ( iOS mobile operating system 9.3.6 and newer)
 
-the A should correctly display on the screens of mobile phones with the following parameters:
+The application should be correctly displayed on the screens of mobile phones with the variety screen resolutions like:
 Proportions: 16:9 5:3 3:2
-Size: Flagmans - iPhone Xr (1792 x 828), iPhone X Plus (2688 x 1242), iPhone X(2436 x 1125),  iPhone 8 (1334 х 750), iPhone 8  (1920 х 1080) and minimal - 5 (1136 x 640) 4 (960 x 640).
+Size: Flagmans - iPhone 12, iPhone 11, iPhone SE, iPhone Xr (1792 x 828), iPhone X Plus (2688 x 1242), iPhone X(2436 x 1125),  iPhone 8 (1334 х 750), iPhone 8  (1920 х 1080) and minimal - 5 (1136 x 640) 4 (960 x 640).
 
-Galaxy A50 (1080x2340 px),Galaxy A70 (1080 x 2400 px)
-
+Samsung Galaxy A10s, Samsung Galaxy A50,Samsung Galaxy A10, Redmi Note 8
 Huawei Honor 10 Lite (1080 x 2340px) + 415ppi
 Huawei Honor 8X (1080 x 2340px) + 397ppi
 
@@ -203,7 +200,7 @@ Customers screen flow:
 | administrator |   | often  |   | Superuser. This user has access everywhere.  |
 | developer     |   |        |   | Developer user role. Used for access to the app as developer  |
 | costomer      |   | often  | REGISTRATION:add date: Name Surname e-mail password repeat password sign insign out <br> Home Page: 1. Сcould select the necessary section in the main menu (directory)- internal 1.1- use the filter when searching (date, time, minimum maximum price, location territorial- search by map- selection of S :- service selection- internal 1.1.1- choosing a convenient time- contact the S phone watches, etc. <br> 1. C can search services in the search bar <br>  2. C can entry to the S schedule (duplicate calendar) <br> 3. C can send a request for the selected time of servise <br>  4. C can receve notifications <br>  5. C can edit their profile <br> 6. C can create and redact list of their S <br>  7. help <br> 8.  feedback |   |
-| specialist |   | often | S can edit your calendar:internal 1:- select customerinternal <br>  1.2clients- customer groups- choose a service- session date (start - end)- comment search for customers in the search barinvite customers <br> Add FB and other applications to attract customers add customer dataphone email birthday synchronization with a notebook create customer groupsnew customersblack listpassive clients |   |
+| specialist |   | often | S can edit own calendar:internal 1:- select customerinternal <br>  1.2clients- customer groups- choose a service- session date (start - end)- comment search for customers in the search barinvite customers <br> Add FB and other applications to attract customers add customer dataphone email birthday synchronization with a notebook create customer groupsnew customersblack listpassive clients |   |
 | tester  |   | sometimes  |   | Testing user role. Will be assigned for testers.   |
 |   |   |   |   |   |
 
@@ -234,28 +231,16 @@ The A change:
 + system for recording clients to supervisors
 + system of a reminder about the time of the visit (no need to call customers)
 + the market of beauty services
-+ the sistem of appointment
++ the system of appointment
 
 <a name="functionalspecifications"></a>
 ## 3. Functional Specifications
+The application should be built on Flutter SDK, Google's UI toolkit for crafting natively compiled applications for mobile. The main programming language is Dart as it is a client-optimized language for fast apps development on any platform.
 
 <a name="Database"></a>
 ### 3.1. Database management system
 
-A database management system should meet the following requirements:
-- reliable (support fault tolerance technology)
-- provide sufficient Performance
-- support backup\restore
-- cost-effective, preferably open source, free software
-- data privacy and encryption should be considered
-- data conversion
-Amazon RDS should be considered. Advantages: ready solution(works out of the box), automatic backup\restore, perfect reliability. Disadvantage: pricing.
-MySQL or PostgreSQL inside Amazon EC2 instance. Advantages: Easy to install, cost-effective. Disadvantages: does not provide good fault tolerance, there are issues with backup\restore.
-Google Firebase. Support real-time database, Authentication. Cloud Firestore (NoSQL database).
-
-### 3.1.2. Use case
-
-_Map the functional requirement to one or more use cases mentioned in the Business Requirements document. If the use case is not described in detail in the Business Requirements document, describe the use case here. This typically includes the element s in the following table._
+The application should be built on Cloud Firestore as it is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud.
 
 <a name="Authentication"></a>
 ### 3.2 Authentication and authorization mechanism
@@ -320,30 +305,20 @@ _Note: Section 3.1.4 and section 3.1.5 may be combined if there are a few functi
 <a name="systemconfigurations"></a>
 ## 4. System Configurations
 
-_Provide an overview of all the steps or the set ups required to configure an application/program. Also state the intent or purpose behind each set up or configuration. Discuss the possible alternatives, customizations, workaround&#39;s, conditions and dependencies in a particular configuration. In case of Oracle applications, please list all applicable BR100&#39;s or Application set up documents_
 
 <a name="othersystemrequirements"></a>
 ## 5. Other System Requirements/ Non-Functional Requirements
 
-_This section is used in contrast with stated functional requirements to highlight the additional details on the quality related aspects as well as other behavioral aspects of a system. This section is used to capture the stakeholders&#39; implicit expectations about how well the system will work under a given circumstance. Here you can  state the specific SLA&#39;s related to system response times (Data search and retrieval), Performance needs and metrics, Latencies in a particular timeframe or during high volume transactions, System failures and recovery management, Security levels and accessibility constraints, Data Backup and archiving Capabilities, Legal compliance needs etc. The broader definition of the term &#39;system&#39; also includes integrations with all types of Mobile platforms, Mobile devices, Tablets and Smart phones._
-
 <a name="reporting"></a>
 ## 6. Reporting Requirements
 
-_This section is used to capture the reporting needs, including but not limited to the scope and format of the report, data elements and contents required on the report, file types and extraction mechanisms, user base and accessibility levels, frequency of report extractions etc. Also provide the mock up of the report if needed.  If necessary, create a separate document for reporting requirements._
-
 <a name="integration"></a>
 ## 7. Integration Requirements
-
-_Identify the integration needs and state all required interfaces with anything external to this solution including hardware, software, and users. Include Architectural overview diagrams, high level data flow diagrams, table structures and schema, interface protocols, API&#39;s, Error conditions, Error validations and messaging needs, Auto processing requirements etc. You can optionally state hardware and software dependencies, Upgrade requirements, compatibility issues with existing frameworks and solutions, etc_
-
-_(Data Flow Diagrams,_ _Interface_ _Diagrams – if necessary)_
 
 
 <a name="exceptionhandling"></a>
 ## 7.1 Exception Handling/ Error Reporting
 
-_This is where you can explain the error conditions/Exceptions that normally happen in Interfaces or cross flow system integrations. Explain the nature of exception, Error Id, Root cause of the error and also the strategy to handle the scenario. You can also indicate if there are any concurrent programs designed to automatically handle the error records or error conditions. State if there are any error reports generated or notifications utilized to alarm the support teams and system Administrators during the interface failures or outages_
 
 | **Exception/ Error ID** | **Error** | **Cause** | **Solution Strategy** |
 | --- | --- | --- | --- |
@@ -352,18 +327,13 @@ _This is where you can explain the error conditions/Exceptions that normally hap
 <a name="datamigration"></a>
 ## 8. Data Migration/ Conversion Requirements
 
-_Explain in brief the data conversion plan._ _Provide full identifying information for the automated system, application, or situation for which the Data Conversion Plan applie __s._ _Describe_ _briefly_ _any assumptions__ , constraints_ _or_ _risks_ _regarding the data conversion effort._ _(Provide details in section 1.6)_
-
-
 <a name="dataconversionstrategy"></a>
 ## 8.1 Data Conversion Strategy
 
-_Include the overall strategy for the Data Conversion. This includes how and when you will perform the conversion - the approach used to extract, transform and load data during the conversion process, the conversion schedule, and test plan for testing the converted data._
 
 <a name="dataconversionpreparation"></a>
 8.2 Data Conversion Preparation
 
-_Provide details on any prerequisites necessary for the conversion. Discuss the backup strategy, restoration process in case the conversion fails._
 
 <a name="dataconversionspecifications"></a>
 8.3 Data Conversion Specifications
@@ -378,8 +348,6 @@ System be compliant with following standards: GDPR.
 
 <a name="references"></a>
 ## 10. References
-
-_List all references to external material used as background information or knowledge for the FSD. Examples may include a compliancy website, Stanford website, etc_
 
 <a name="openissues"></a>
 ## 11. Open Issues
