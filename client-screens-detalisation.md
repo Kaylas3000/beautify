@@ -1,5 +1,10 @@
 # All screens
 ![All screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/All-screens.png)
+
+# Introduction
+This document describes only a Client(Customer) part. Service provider(specialist) part described in the [specialist document](https://github.com/Kaylas3000/beautify/blob/master/specialist-screens-detalisation.md).
+The user should be able to register an account (select "client") on the SignUp Screen). After Registration user is redirected to the dashboard where he\she should be able to book a service like a Haircut, Makeup, Manicure, etc. Users should be able to filter services according to his\her location, price range, service name, etc. The user should be able to open a map where he\she should click on the nearest service and book it.
+
 # Login and registration
 
 
@@ -41,13 +46,13 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-|Search box|Search for offers. User types a search confition. Offers should be filtered according to search text.|At the top of the screen|
-|Button “Find”||Located under search box from the left side.|
+|Search box|Search for offers(services). User types a search condition. Offers should be filtered according to search text.|At the top of the screen|
+|Button “Search”|Services should be filtered according to what is user typing in the search field|Located under search box from the left side.|
 |Button “Map”||Located is under search box from the right side.|
-|Filter button|When user click on the button then user is redirected to another page with different filters.||
-|All offers|There is offers scrolling option.||
-|Button "Book now"|Procedd of booking a service. User should be able to continue in booking a service by clicking this button||
-|Picture of service provider|This is a picture that service provider(saloon) uploaded||
+|Button "Filter"|When the user clicks on the button then the user is redirected to another page with different filters.||
+|All offers|There is an offers scrolling option.||
+|Button "Book now"|Procedd of booking a service. User should be able to continue booking a service by clicking this button||
+|Picture of service provider|This is a picture that the service provider(saloon) uploaded||
 
 ## 1.1 Filters
 ![Filters screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2015CLI.png)
@@ -55,18 +60,18 @@
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
 |Menu back to the Dashboard|||
-|Text line with name of the window.||
-|Text with name of the filter “Gender”.||
+|Text line with the name of the window.||
+|Text with the name of the filter “Gender”.||
 | 3 radio buttons|User can apply a filter “Woman”/ “Man”/ “Kid”.||
-|Text with name of the filter “Services”.||
-|Different filters: ”Hair cut”, “Hair Styling”, “Hair Coloring”, “Trim & Shaving”, “Make up”, “Facial Make up”, “Manicure”, “Pedicure”, “Gel polish”, “Spa”, “Limphatic drainage massage”, “Classic massage”, “Relaxing massage”, “Men`s epilation”, “Waxing”, “Photoepilation”, “Sugaring”.||
-|Text with name of the filter “Raiting”.||
+|Text with the name of the filter “Services”.||
+|Different filters: ”Hair cut”, “Hair Styling”, “Hair Coloring”, “Trim & Shaving”, “Make up”, “Facial Make up”, “Manicure”, “Pedicure”, “Gel polish”, “Spa”, “Limphatic drainage massage”, “Classic massage”, “Relaxing massage”, “Men`s epilation”, “Waxing”, “Photoepilation”, “Sugaring”.|Filteres should be clickable. User should be able to select desired filer conditions.|
+|Text with the name of the filter “Raiting”.||
 |Filter "stars"|User should be able to filter salons with minimal required rating.|Default value is "any raiting"|
-|Text with name of the filter “Distance”.||
-|Distance filter(slider)|Allows client to adjust the distance from his\her location to the services. Services should be showed where distance is larger then filter.|Default value is 20 km|
-|Text with name of the filter “Price”.||
-|Price filter(slider)|Service should be shown in selected price range(lower and higher)|Default value is: form 0 to maximum|
-|“Submit button” |When user clicks on submit button then filter is applied and user is redirected back to the dashboard.|On the button there is a text showing maximum available services and services after applying filter.|
+|Text with the name of the filter “Distance”.||
+|Distance filter(slider)|Allows client to adjust the distance from his\her location to the services. Services should be shown where distance is larger than filter.|Default value is 20 km|
+|Text with the name of the filter “Price”.||
+|Price filter(slider)|Service should be shown in the selected price range(lower and higher)|Default value is form 0 to maximum|
+|“Submit button” |When a user clicks on submit button then the filter is applied and the user is redirected back to the dashboard.|On the button, there is a text showing maximum available services and services after applying the filter.|
 
 ## 1.2. Map
 ![Map screen](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2019CLI.png)
