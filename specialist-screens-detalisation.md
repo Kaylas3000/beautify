@@ -1,6 +1,7 @@
 # All screens
-![All screen](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/All-Screens.png)
+![All screen](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/All-Screens-1.png)
 
+![All screen](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/All-Screens-2.png)
 
 ![Login picture](https://github.com/Kaylas3000/beautify/blob/master/SignUp-1.png)
 
@@ -31,4 +32,3 @@
 | **Priority** | high|
 | **Special Requirements** |communication with the registration system through social networks <br> communication with the communication system by phone number|
 |**Open Questions** |  |
-

@@ -183,10 +183,12 @@ Huawei Honor 8X (1080 x 2340px) + 397ppi
 <a name="contextdiagram"></a>
 ## 2.1 Application Screen Flow
 
-Customers screen flow:
+**Customers screen flow:**
 
-![Application Screen Flow](https://github.com/nzamb1/find-haircut/blob/master/scenario.png)
+![Application Screen Flow](https://github.com/nzamb1/find-haircut/blob/master/scenario-client.png)
 
+**Specialist screen flow:**
+![Application Screen Flow](https://github.com/nzamb1/find-haircut/blob/master/scenario-specialist.png)
 
 
 <a name="systemactors"></a>
