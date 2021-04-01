@@ -224,7 +224,7 @@ The user should be able to register an account (select "client") on the SignUp S
 |Button "Back" to the "Salon's page"||
 |Text with "Your review. What are you feel about this service?"||
 |Below, "stars"|User can rate, choosing the number of stars||
-|Under, is inputfield|User can entering feedback||
+|Under, is input field|User should be able to leave a feedback comment||
 |Near, is button for sent feedback||
 
 # 15. Menu
