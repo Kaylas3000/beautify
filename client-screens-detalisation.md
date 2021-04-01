@@ -173,3 +173,64 @@ The user should be able to register an account (select "client") on the SignUp S
 |Text line with "CVV"|Under, is rectangle|User can write CVV his card||
 |Button "Add new card"|When user click button, he redirected to the page "Payment card has been added" and then "Add payment card"||
 ||User can go to the page from the "Settings" page||
+
+# 10. Finished
+![Finished](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2018CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on menu button open menu||
+|Text line with name of the window||
+|Button "Back" to the "Payment"||
+|"Slider"|There are 3 points on the slider. Each point is signed. Active position is highlighted in blue|First: "Book appointment", second: "Payment", third: "Finished"||
+|Below, window "Order detail" displayed|Information displayed with data, time, price and address||
+|Button "Add a reminder"|??add Google reminder??||
+
+# 11. Payment card has been added
+![Payment card has been added](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%209CLI.png)
+
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Icon check mark is on the top||
+|Text with information "Payment card has been added. You will recive a confirmation of your order by email"||
+|Button "Got it"|User redirected to the page "Add payment card"||
+
+# 12. Payment failed
+![Payment failed](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2010CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Сross icon is on the top||
+|Text with information "Payment failed. Unfortunately payment was rejected"|If user writes incorect data about credit card on the page "Add new card", he will turn up on this page||
+|Button "Try again"|User redirected to the page "Add payment card"||
+
+# 13. You payment was successful
+![You payment was successful](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2011CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Icon check mark is on the top||
+|Text with information "You payment was successful. Thank you. You will recive an email shortly"||
+|Button "Done"|User redirected to the page "Dashboard"||
+
+# 14. Feedback
+![Feedback](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2020CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on menu button open menu||
+|Text line with name of the window||
+|Button "Back" to the "Salon's page"||
+|Text with "Your review. What are you feel about this service?"||
+|Below, "stars"|User can rate, choosing the number of stars||
+|Under, is a field for entering feedback||
+|Near, is button for sent feedback||
+
+# 15. Menu
+![Menu](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%202CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Back"|Clicking on the "back" button redirects back to the page from which user went||
+|Below, is photo profile|Under photo are username and email||
