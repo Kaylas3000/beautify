@@ -250,3 +250,36 @@ The user should be able to register an account (select "client") on the SignUp S
 |Button "Date of birth"|This is inputfield, where user can write date of birth||
 |Button "Language"|User can choose a language  from the list||
 
+# 17. Events
+![Events](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%204CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on menu button open menu||
+|Text line with name of the window|Here user can write text for the search||
+|Button "Back"|Clicking on the "back" button redirects back to the page from which user went||
+|Button "Search"|After clicking, a search occurs according to the specified criteria||
+|Under, is frame with three buttons "Upcoming", "Past, ""Present"|When the user selects one of the buttons, the slider moves to the active window||
+|Display list with events information|Information include data: salon`s name, type of service, date, time, address, price and button "Cancel the order"|If user cancels the service in less than one day, he will be charged 50% of the service cost, if cancelled more than one day in advance - 30% of the service cost. The specialist receives a push notification about the cancellation of the order||
+
+# 18. Settings
+![Settings](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%205CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on menu button open menu||
+|Text line with name of the window||
+|Button "Back"|Clicking on the "back" button redirects back to the page from which user went||
+|Button "Add card"|User redirected to the page "Add new card"||
+|Button "Delete account"|User receives a confirmation notification "Permanently delete account?" with two buttons "yes"/"no"||
+|Button "Help&Support"|User should be able with contact support||
+|Button "Privacy policy"|User can be able to read all information about privacy policy.|User ought to confirm the privacy policy by clicking the button: "Accept" or "Decline"||
+
+# 19. No internet connection
+![No internet connection](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%201CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Image||
+|Below, is text: "Ooops! No internet connection found. Check your connection|Will be present if user does not connect with internet||
+|Button "Try again"|User redirected to the page "Log in"||
