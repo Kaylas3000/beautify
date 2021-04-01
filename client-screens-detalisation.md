@@ -202,7 +202,7 @@ The user should be able to register an account (select "client") on the SignUp S
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
 |Сross icon is on the top||
-|Text with information "Payment failed. Unfortunately payment was rejected"|If user writes incorect data about credit card on the page "Add new card", he will turn up on this page||
+|Text with information "Payment failed. Unfortunately payment was rejected"|If user writes incorect data about credit card on the page "Add new card" or other error happened, he/she will turn up on this page||
 |Button "Try again"|User redirected to the page "Add payment card"||
 
 # 13. You payment was successful
@@ -224,7 +224,7 @@ The user should be able to register an account (select "client") on the SignUp S
 |Button "Back" to the "Salon's page"||
 |Text with "Your review. What are you feel about this service?"||
 |Below, "stars"|User can rate, choosing the number of stars||
-|Under, is a field for entering feedback||
+|Under, is inputfield|User can entering feedback||
 |Near, is button for sent feedback||
 
 # 15. Menu
@@ -234,3 +234,19 @@ The user should be able to register an account (select "client") on the SignUp S
 | --- | --- | --- |
 |Button "Back"|Clicking on the "back" button redirects back to the page from which user went||
 |Below, is photo profile|Under photo are username and email||
+|Under, is list with "My account", "Events", "Settings", "Exit"|When the user clicks on the button, he should go to the selected page||
+
+# 16. My account
+![My account](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%203CLI.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Back"|Clicking on the "back" button redirects back to the page "Menu"||
+|Below, is photo profile|User can change the photo, clicking on the button "Edit photo"||
+|Lower, is list with the "Account settings"||
+|Button "Name"|This is inputfield, where user can write name||
+|Button "Email"|This is inputfield, where user can write email||
+|Button "Phone number"|This is inputfield, where user can write phone number||
+|Button "Date of birth"|This is inputfield, where user can write date of birth||
+|Button "Language"|User can choose a language  from the list||
+
