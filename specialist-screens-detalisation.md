@@ -32,3 +32,7 @@
 | **Priority** | high|
 | **Special Requirements** |communication with the registration system through social networks <br> communication with the communication system by phone number|
 |**Open Questions** |  |
+
+# 2. Menu
+![Menu](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%203.png)
+
