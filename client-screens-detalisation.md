@@ -13,6 +13,16 @@
 8. [ Payment ](#payment)
 9. [ Add payment card ](#addpaymentcard)
 10. [ Add new card ](#addnewcard)
+11. [ Finished ](#finished)
+12. [ Payment card has been added ](paymentcardhasbeenadded)
+13. [ Payment failed ](#paymentfailed)
+14. [ You payment was successful ](#youpaymentwassuccessful)
+15. [ Feedback ](#feedback)
+16. [ Menu ](#menu)
+17. [ My account ](#myaccount)
+18. [ Events ](#events)
+19. [ Settings ](#settings)
+20. [ No internet connection ](#nointernetconnection)
 
 <a name="introduction"></a>
 # 1. Introduction
@@ -174,7 +184,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Button "Add new card"|When user click button, he redirected to the page "Payment card has been added" and then "Add payment card"||
 ||User can go to the page from the "Settings" page||
 
-# 10. Finished
+<a name="finished"></a>
+# 11. Finished
 ![Finished](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2018CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -186,7 +197,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Below, window "Order detail" displayed|Information displayed with data, time, price and address||
 |Button "Add a reminder"|??add Google reminder??||
 
-# 11. Payment card has been added
+<a name="зaymentcardhasbeenadded"></a>
+# 12. Payment card has been added
 ![Payment card has been added](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%209CLI.png)
 
 
@@ -196,7 +208,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Text with information "Payment card has been added. You will recive a confirmation of your order by email"||
 |Button "Got it"|User redirected to the page "Add payment card"||
 
-# 12. Payment failed
+<a name="paymentfailed"></a>
+# 13. Payment failed
 ![Payment failed](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2010CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -205,7 +218,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Text with information "Payment failed. Unfortunately payment was rejected"|If user writes incorect data about credit card on the page "Add new card" or other error happened, he/she will turn up on this page||
 |Button "Try again"|User redirected to the page "Add payment card"||
 
-# 13. You payment was successful
+<a name="youpaymentwassuccessful"></a>
+# 14. You payment was successful
 ![You payment was successful](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2011CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -214,7 +228,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Text with information "You payment was successful. Thank you. You will recive an email shortly"||
 |Button "Done"|User redirected to the page "Dashboard"||
 
-# 14. Feedback
+<a name="feedback"></a>
+# 15. Feedback
 ![Feedback](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%2020CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -227,7 +242,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Under, is input field|User should be able to leave a feedback comment||
 |Near, is button for sent feedback||
 
-# 15. Menu
+<a name="menu"></a>
+# 16. Menu
 ![Menu](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%202CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -236,7 +252,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Below, is photo profile|Under photo are username and email||
 |Under, is list with "My account", "Events", "Settings", "Exit"|When the user clicks on the button, he should go to the selected page||
 
-# 16. My account
+<a name="myaccount"></a>
+# 17. My account
 ![My account](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%203CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -250,7 +267,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Button "Date of birth"|This is inputfield, where user can write date of birth||
 |Button "Language"|User can choose a language  from the list||
 
-# 17. Events
+<a name="events"></a>
+# 18. Events
 ![Events](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%204CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -262,7 +280,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Under, is frame with three buttons "Upcoming", "Past, ""Present"|When the user selects one of the buttons, the slider moves to the active window||
 |Display list with events information|Information include data: salon`s name, type of service, date, time, address, price and button "Cancel the order"|If user cancels the service in less than one day, he will be charged 50% of the service cost, if cancelled more than one day in advance - 30% of the service cost. The specialist receives a push notification about the cancellation of the order||
 
-# 18. Settings
+<a name="settings"></a>
+# 19. Settings
 ![Settings](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%205CLI.png)
 
 | **Object** | **Function** | **Notes** |
@@ -275,7 +294,8 @@ The user should be able to register an account (select "client") on the SignUp S
 |Button "Help&Support"|User should be able with contact support||
 |Button "Privacy policy"|User can be able to read all information about privacy policy.|User ought to confirm the privacy policy by clicking the button: "Accept" or "Decline"||
 
-# 19. No internet connection
+<a name="nointernetconnection"></a>
+# 20. No internet connection
 ![No internet connection](https://github.com/Kaylas3000/beautify/blob/master/Client-Figma-Screens/Android%20-%201CLI.png)
 
 | **Object** | **Function** | **Notes** |
