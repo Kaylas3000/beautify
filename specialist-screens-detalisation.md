@@ -36,3 +36,84 @@
 # 2. Menu
 ![Menu](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%203.png)
 
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Back"|Clicking on the "back" button redirects back to the page from which user went||
+|Below, is photo profile|Under photo are username and email||
+|Under, is list with "My account", "Calendar", "My Offers & Prices", "Settings", "Feedback", "Exit"|When the user clicks on the button, he should go to the selected page||
+
+# 3. My account
+![My account](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%204.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Back"|User redirected to the page "Menu"||
+|Profile photo|User can change the photo, clicking on the button "Edit photo"||
+|Lower, is list with the "Account settings"||
+
+# 4. Calendar
+![Calendar](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%205.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Menu back to the Dashboard||
+|Text line with the name of the window||
+|Button "Back"|User redirected to the page "Menu"||
+|A text string where the user can select the month with chevron-left/-right||
+|Under, is text line with days of the week||
+|Below, is calendar|The calendar displays the number of entries for each day. The present day is highlighted in color. The user can select any day with events and see the schedule in more detail by going to the page "Event detail"||
+|Button "Add offer"|When the user clicks one of the button, he/she redirected on the page "Add offer"||
+
+# 5. My offers and price
+![My offers and price](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%206.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Menu back to the Dashboard||
+|Text line with the name of the window||
+|Button "Back"|User redirected to the page "Menu"||
+|A list is displayed with all events||
+|Button "Add offer"|When the user clicks one of the button, he/she redirected on the page "Add offer"||
+|Button "Remind me"|??add Google reminder??||
+
+# 6. Settings
+![Settings](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%207.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Menu back to the Dashboard||
+|Text line with the name of the window||
+|Button "Back"|User redirected to the page "Menu"||
+|Button "Add card"|User can add credit card||
+|Button "Delete account"|User receives a confirmation notification "Permanently delete account?" with two buttons "yes"/"no"||
+||Button "Help&Support"|User should be able with contact support||
+|Button "Privacy policy"|User can be able to read all information about privacy policy.|User ought to confirm the privacy policy by clicking the button: "Accept" or "Decline"||
+
+# 7. Feedback
+![Feedback](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%208.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Menu back to the Dashboard||
+|Text line with the name of the window||
+|Button "Back"|User redirected to the page "Menu"||
+|A list with customer reviews is displayed on the screen|The name of the client is indicated, type of service, feedback, number of stars||
+
+# 8. Dashboard
+![Dashboard](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%209.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu" back to the page "Menu"???????????||
+|Text line with the name of the window||
+|Button "Back" back to the page "Menu"??????????||
+|A list displayed with: "Schedule", "Accounting", "My customers", "Messages", "Gallery"|If there are new events or/and messages, notifications will appear in the form of a circle with their number||
+
+# 9. Schedule
+![Schedule](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2010.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on menu button open menu||
+|Text line with name of the window||
+|Button "Back" back to the Dashboard||
