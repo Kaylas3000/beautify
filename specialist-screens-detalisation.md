@@ -109,7 +109,7 @@
 |A list displayed with: "Schedule", "Accounting", "My customers", "Messages", "Gallery"|If there are new events or/and messages, notifications will appear in the form of a circle with their number||
 
 # 9. Schedule
-![Schedule](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2010SP.png)
+![Schedule](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Screenshot%2010.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
