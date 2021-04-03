@@ -56,7 +56,7 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-|Menu back to the Dashboard||
+|Button "Menu"|Tapping on "Menu" button open menu||
 |Text line with the name of the window||
 |Button "Back"|User redirected to the page "Menu"||
 |A text string where the user can select the month with chevron-left/-right||
@@ -69,7 +69,7 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-|Menu back to the Dashboard||
+|Button "Menu"|Tapping on "Menu" button open menu||
 |Text line with the name of the window||
 |Button "Back"|User redirected to the page "Menu"||
 |A list is displayed with all events||
@@ -81,9 +81,9 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-|Menu back to the Dashboard||
+|Button "Menu"|User redirected to the page "Menu"||
 |Text line with the name of the window||
-|Button "Back"|User redirected to the page "Menu"||
+|Button "Back"|Tapping on "Menu" button open menu||
 |Button "Add card"|User can add credit card||
 |Button "Delete account"|User receives a confirmation notification "Permanently delete account?" with two buttons "yes"/"no"||
 ||Button "Help&Support"|User should be able with contact support||
@@ -94,7 +94,7 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-|Menu back to the Dashboard||
+|Button "Menu"|Tapping on "Menu" button open menu||
 |Text line with the name of the window||
 |Button "Back"|User redirected to the page "Menu"||
 |A list with customer reviews is displayed on the screen|The name of the client is indicated, type of service, feedback, number of stars||
@@ -104,9 +104,9 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-|Button "Menu" back to the page "Menu"???????????||
+|Button "Menu"|User redirected to the page "Menu"||
 |Text line with the name of the window||
-|Button "Back" back to the page "Menu"??????????||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user went||
 |A list displayed with: "Schedule", "Accounting", "My customers", "Messages", "Gallery"|If there are new events or/and messages, notifications will appear in the form of a circle with their number||
 
 # 9. Schedule
@@ -114,6 +114,7 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-|Button "Menu"|Tapping on menu button open menu||
+|Button "Menu"|Tapping on "Menu" button open menu||
 |Text line with name of the window||
-|Button "Back" back to the Dashboard||
+|Button "Back"|User redirected to the page "Dashboard"||
+|Text line with the date, month,year|When user click on this date, he/she redirected to the page "Event detail"||
