@@ -144,3 +144,4 @@
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
 |Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
+
