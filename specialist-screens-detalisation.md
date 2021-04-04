@@ -38,7 +38,7 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-|Button "Back"|Clicking on the "back" button redirects back to the page from which user went||
+|Button "Back"|Clicking on the "back" button redirects back to the page from which user came||
 |Below, is photo profile|Under photo are username and email||
 |Under, is list with "My account", "Calendar", "My Offers & Prices", "Settings", "Feedback", "Exit"|When the user clicks on the button, he should go to the selected page||
 
@@ -105,7 +105,7 @@
 | --- | --- | --- |
 |Button "Menu"|User redirected to the page "Menu"||
 |Text line with the name of the window||
-|Button "Back"|Clicking on the "Back" button redirects back to the page from which user went||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
 |A list displayed with: "Schedule", "Accounting", "My customers", "Messages", "Gallery"|If there are new events or/and messages, notifications will appear in the form of a circle with their number||
 
 # 9. Schedule
@@ -118,3 +118,29 @@
 |Button "Back"|User redirected to the page "Dashboard"||
 |Text line with the date, month,year|When user clicks on this date, he/she will redirect to the page "Event detail"||
 |Below is a list with a schedule for each day|The schedule displays: photo (if present) of the client, type of service, name of the client, paid for the service or not (then, the cost is indicated), date and time, icons: notification, call, edit|When user clicks on the notification, he/she will edit the time???????????. When user clicks on the call, he/she will can to call client. When user clicks on the notification, he/she will sent massage to the client||
+
+# Event detail
+![Event detail](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Event%20detailSP.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Back"|User redirected to the page "Schedule"||
+|Text line with the date, month,year||
+|Below is a list with a schedule for the day|The schedule displays: photo (if present) of the client, type of service, name of the client, paid for the service or not (then, the cost is indicated), date and time, icons: notification, call, edit|When user clicks on the notification, he/she will edit the time???????????. When user clicks on the call, he/she will can to call client. When user clicks on the notification, he/she will sent massage to the client||
+
+# My customers
+![My customers](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2013SP.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|User redirected to the page "Menu"||
+|Text line with the name of the window||
+|Button "Back"|User redirected to the page "Dashboard"||
+|Under, is list with data all customers|Information displayed: client`s photo, name, phone number, type of service, date of the procedure||
+
+# Add offer
+![Add offer](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Add%20offerSP.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
