@@ -117,7 +117,7 @@
 |Text line with name of the window||
 |Button "Back"|User redirected to the page "Dashboard"||
 |Text line with the date, month,year|When user clicks on this date, he/she will redirect to the page "Event detail"||
-|Below is a list with a schedule for each day|The schedule displays: photo (if present) of the client, type of service, name of the client, paid for the service or not (then, the cost is indicated), date and time, icons: notification, call, edit|When user clicks on the notification, he/she will edit the time???????????. When user clicks on the call, he/she will can to call client. When user clicks on the notification, he/she will sent massage to the client||
+|Below is a list with a schedule for each day|The schedule displays: photo (if present) of the client, type of service, name of the client, paid for the service or not (then, the cost is indicated), date and time, icons: notification, call, edit|When user clicks on the notification(a bell), user should be able to set the reminder. User should recive a reminder in configured time(for example 15 min). When user clicks on the call, he/she will can to call client. When user clicks on the notification, he/she will sent massage to the client||
 
 # Event detail
 ![Event detail](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Event%20detailSP.png)
@@ -126,7 +126,7 @@
 | --- | --- | --- |
 |Button "Back"|User redirected to the page "Schedule"||
 |Text line with the date, month,year||
-|Below is a list with a schedule for the day|The schedule displays: photo (if present) of the client, type of service, name of the client, paid for the service or not (then, the cost is indicated), date and time, icons: notification, call, edit|When user clicks on the notification, he/she will edit the time???????????. When user clicks on the call, he/she will can to call client. When user clicks on the notification, he/she will sent massage to the client||
+|Below is a list with a schedule for the day|The schedule displays: photo (if present) of the client, type of service, name of the client, paid for the service or not (then, the cost is indicated), date and time, icons: notification, call, edit|When user clicks on the notification(a bell), user should be able to set the reminder. User should recive a reminder in configured time(for example 15 min). When user clicks on the call, he/she will can to call client. When user clicks on the notification, he/she will sent massage to the client||
 
 # My customers
 ![My customers](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2013SP.png)
