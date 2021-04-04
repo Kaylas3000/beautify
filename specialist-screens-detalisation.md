@@ -144,5 +144,5 @@
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
 |Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
-|Select location Input field|User should be able to click on this input field and map with location picker should be opened. User should be able to enrer location. After user clicked on "Select here" and confirmed location then user should be returned back to Add offer page and input field should be populated with the address.|
+|Select location Input field|User should be able to click on this input field and map with location picker should be opened. User should be able to enrer location. After user clicked on "Select here" and confirmed location then user should be returned back to Add offer page and input field should be populated with the address.||
 
