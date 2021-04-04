@@ -144,5 +144,10 @@
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
 |Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
-|Select location Input field|User should be able to click on this input field and map with location picker should be opened. User should be able to enrer location. After user clicked on "Select here" and confirmed location then user should be returned back to Add offer page and input field should be populated with the address.||
-
+|Input field|The default value for the input field should be taken from Salon`s name (Account Settings)||
+|Select location Input field|User should be able to click on this input field and map with location picker should be opened, page "Add salon". User should be able to enter location. After user clicked on "Select here" and confirmed location then user should be returned back to Add offer page and input field should be populated with the address||
+|Text line with the name "Date"||
+|Component-calendar|User will choose month, dates when he/she can work|When user selects start date and an end date for service, the numbers will be highlighted. The entire period that is included there is also highlighted||
+|Text line with the name "Time picker Start"|User can choose time for start||
+|Text line with the name "Time picker End"|User can choose time for end||
+|Text line with the name "Woman/Man/Kid"|User can select gender in checkboxes||
