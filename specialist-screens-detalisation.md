@@ -58,7 +58,7 @@
 | --- | --- | --- |
 |Button "Menu"|Tapping on "Menu" button open menu||
 |Text line with the name of the window||
-|Button "Back"|User redirected to the page "Menu"||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
 |A text string where the user can select the month with chevron-left/-right||
 |Under, is text line with days of the week||
 |Below, is calendar|The calendar displays the number of entries for each day. The present day is highlighted in color. The user can select any day with events and see the schedule in more detail by going to the page "Event detail"||
@@ -82,7 +82,7 @@
 | --- | --- | --- |
 |Button "Menu"|User redirected to the page "Menu"||
 |Text line with the name of the window||
-|Button "Back"|Tapping on "Menu" button open menu||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
 |Button "Add card"|User can add credit card||
 |Button "Delete account"|User receives a confirmation notification "Permanently delete account?" with two buttons "yes"/"no"||
 ||Button "Help&Support"|User should be able with contact support||
@@ -95,7 +95,7 @@
 | --- | --- | --- |
 |Button "Menu"|Tapping on "Menu" button open menu||
 |Text line with the name of the window||
-|Button "Back"|User redirected to the page "Menu"||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
 |A list with customer reviews is displayed on the screen|The name of the client is indicated, type of service, feedback, number of stars||
 
 # 8. Dashboard
@@ -115,7 +115,7 @@
 | --- | --- | --- |
 |Button "Menu"|Tapping on "Menu" button open menu||
 |Text line with name of the window||
-|Button "Back"|User redirected to the page "Dashboard"||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
 |Text line with the date, month,year|When user clicks on this date, he/she will redirect to the page "Event detail"||
 |Below is a list with a schedule for each day|The schedule displays: photo (if present) of the client, type of service, name of the client, paid for the service or not (then, the cost is indicated), date and time, icons: notification, call, edit|When user clicks on the notification(a bell), user should be able to set the reminder. User should recive a reminder in configured time(for example 15 min). When user clicks on the call, he/she will can to call client. When user clicks on the notification, he/she will sent massage to the client||
 
@@ -124,7 +124,7 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
-|Button "Back"|User redirected to the page "Schedule"||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
 |Text line with the date, month,year||
 |Below is a list with a schedule for the day|The schedule displays: photo (if present) of the client, type of service, name of the client, paid for the service or not (then, the cost is indicated), date and time, icons: notification, call, edit|When user clicks on the notification(a bell), user should be able to set the reminder. User should recive a reminder in configured time(for example 15 min). When user clicks on the call, he/she will can to call client. When user clicks on the notification, he/she will sent massage to the client||
 
@@ -135,7 +135,7 @@
 | --- | --- | --- |
 |Button "Menu"|User redirected to the page "Menu"||
 |Text line with the name of the window||
-|Button "Back"|User redirected to the page "Dashboard"||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
 |Under, is list with data all customers|Information displayed: client`s photo, name, phone number, type of service, date of the procedure||
 
 # Add offer
