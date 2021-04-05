@@ -72,7 +72,7 @@
 |Button "Menu"|Tapping on "Menu" button open menu||
 |Text line with the name of the window||
 |Button "Back"|User redirected to the page "Menu"||
-|A list is displayed with all events||
+|A list is displayed with all events|When user clicks on the event, he/she can edit or delete event||
 |Button "Add offer"|When the user clicks one of the button, he/she redirected on the page "Add offer"||
 
 # 6. Settings
@@ -151,3 +151,34 @@
 |Text line with the name "Time picker Start"|User can choose time for start||
 |Text line with the name "Time picker End"|User can choose time for end||
 |Text line with the name "Woman/Man/Kid"|User can select gender in checkboxes||
+|Button "Cell"|User should be able to click on this button and "Add offer 0.1" should be opened||
+|Button "+Add"|User can add one more type of service||
+|Dropdowns list|User can select specialist from list||
+|Button "Save"|User can save chosen parameters||
+
+# Add salon
+![Add salon](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Add%20salonSP.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Back"|Clicking on the "Back" button redirects back to the page "Add offer"||
+|Map|Where user can choose salon`s address|Also, displayed user location||
+|Frame with address||
+|Button "Select here"|Clicking on the "Select here" button redirects back to the page "Add offer"||
+
+# Add offer 0.1
+![Add offer 0.1](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Add%20offer%200.1SP.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Back"|Clicking on the "Back" button redirects back to the page "Add offer"||
+|Dropdowns list|Here user can select the type of service and the cell is filled in automatically||
+|Icon time with text "Duration"|User can click on the chevron-right and choose the time he/she wants||
+|Icon danger with text "Price"|Under, is input field, where user can write price by type of service||
+|Button "Save"|User can save chosen parameters|After, redirects back to the page "Add offer"||
+
+# Accounting 
+![Accounting](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2012SP.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
