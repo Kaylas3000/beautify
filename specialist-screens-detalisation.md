@@ -182,3 +182,51 @@
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
+|Button "Menu"|Tapping on "Menu" button open menu||
+|Text line with name of the window||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
+|Tabs bar|User can select between "Accounting check" & "Payment archive"||
+|Active tab "Accounting check"|User can see: income by the days; global income; total number of clients||
+
+# Payment archive
+![Payment arcive](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2018SP.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on "Menu" button open menu||
+|Text line with name of the window||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
+|Text line with the date, month, year||
+|Below, is list with all payments per day||
+
+# Messages
+![Messages](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2014SP.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on "Menu" button open menu||
+|Text line with name of the window||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
+|Messages|Blocs with messages from different clients|When user chooses one message, he will redirect to the page "Message details"||
+
+# Message details
+![Message details](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Message%20detailsSP.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on "Menu" button open menu||
+|Text line with name of the client||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
+|Correspondence window||
+|Input text|User can write message text, add files||
+
+# Gallary
+![Gallery](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2017SP.png)
+
+| **Object** | **Function** | **Notes** |
+| --- | --- | --- |
+|Button "Menu"|Tapping on "Menu" button open menu||
+|Text line with name of the window||
+|Button "Back"|Clicking on the "Back" button redirects back to the page from which user came||
+|Button "File add"|When user click on the "File add" button, a gallery should open (from where user can select photos) or the option take a photo||
+|Album view|All added photos are displayed||
