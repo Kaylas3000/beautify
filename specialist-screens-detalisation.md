@@ -151,8 +151,7 @@
 |Text line with the name "Time picker Start"|User can choose time for start||
 |Text line with the name "Time picker End"|User can choose time for end||
 |Text line with the name "Woman/Man/Kid"|User can select gender in checkboxes||
-|Button "Cell"|User should be able to click on this button and "Add offer 0.1" should be opened||
-|Button "+Add"|User can add one more type of service||
+|Button "+Add"|User should be able to click on button "+add" and to add a service. Clicking on this button user is redirected to "Add offer 0.1" where can add one more type of service. User should be able to add multiple services like: haircut, hair modeling etc.|Clicking on service itself user should be able to remove or edit service.|
 |Dropdowns list|User can select specialist from list||
 |Button "Save"|User can save chosen parameters||
 
@@ -173,7 +172,7 @@
 | --- | --- | --- |
 |Button "Back"|Clicking on the "Back" button redirects back to the page "Add offer"||
 |Dropdowns list|Here user can select the type of service and the cell is filled in automatically||
-|Icon time with text "Duration"|User can click on the chevron-right and choose the time he/she wants||
+|Icon time with text "Duration"|User can click on the chevron-right(drop-down list) and choose the duration time.|Available intervals should be 15 min: 15min,30min,45min,1h,1.15, 1.30, 1.45, 2h, 2.15, 2.30, 2.45, 3h, 3.15, 3.30, 3.45, 4h|
 |Icon danger with text "Price"|Under, is input field, where user can write price by type of service||
 |Button "Save"|User can save chosen parameters|After, redirects back to the page "Add offer"||
 
