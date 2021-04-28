@@ -145,8 +145,8 @@ The application solves the following tasks of a small business:
 
 | **Component** | **Name (with link to the document)** | **Description** |
 | --- | --- | --- |
-|   | [Client screens detailing ](https://github.com/Kaylas3000/beautify/blob/master/client-screens-detalisation.md)  | Specification of clients part  |
-|   | [Specialist screens detailing ](https://github.com/Kaylas3000/beautify/blob/master/specialist-screens-detalisation.md)  | Specification of specialist part  |
+| Client  | [Client screens detailing ](https://github.com/Kaylas3000/beautify/blob/master/client-screens-detalisation.md)  | Specification of clients part  |
+| Specialist  | [Specialist screens detailing ](https://github.com/Kaylas3000/beautify/blob/master/specialist-screens-detalisation.md)  | Specification of specialist part  |
 |   | [User flow diagram ](https://github.com/Kaylas3000/beautify/blob/master/UserFlowDiagram.png)  | User flow diagram  |
 |   | [ Simple test scenarios ](https://github.com/nzamb1/find-haircut/blob/master/basic_test_scenario.md) | list of basic test cases  |
 
