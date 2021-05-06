@@ -4,7 +4,7 @@
 
 
 
-**DOCUMENT VERSION**  **0.6**
+**DOCUMENT VERSION**  **0.8**
 
 
 
@@ -252,17 +252,19 @@ Authentication and authorization might be implemented using Google Firebase. It'
 Authentication should be available with
 
 - Facebook
-- Gmail
-- Apple
+- Google
+- Instagram
 - Email
-- Phone number
 
-The user should be able to logout. The user should be able to close the account (probably on the setting page). The account should be removed as well as user data after closing the account.
+Requirements for authentication.
+- The user should be able to logout.
+- The user should be able to close the account. The account should be removed as well as user data after closing the account.
+- User should see an error message in case of errors during authentication(like account does not exist, incorrect passord, no connection to backend etc..).
 
 <a name="Localization"></a>
 ### 3.3 Localization
 
-The application should support localization. All sections of the app should support translation to different languages. Translation to different languages should be in a separate XML file.
+The application should support localization. All sections of the app should support translation to different languages. Translation to different languages should be in a separate file(for example xml).
 
 <a name="Billing"></a>
 ### 3.3 Billing (checkout)
