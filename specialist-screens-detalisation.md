@@ -151,8 +151,10 @@
 |Text line with the name "Time picker Start"|User can choose time for start||
 |Text line with the name "Time picker End"|User can choose time for end||
 |Text line with the name "Woman/Man/Kid"|User can select gender in checkboxes||
-|Button "+Add"|User should be able to click on button "+add" and to add a service. Clicking on this button user is redirected to "Add offer 0.1" where can add one more type of service. User should be able to add multiple services like: haircut, hair modeling etc.|Clicking on service itself user should be able to remove or edit service.|
+|Button "+Add" service|User should be able to click on button "+add" and to add a service. Clicking on this button user is redirected to "Add offer 0.1" where can add one more type of service. User should be able to add multiple services like: haircut, hair modeling etc.|Defaullt value is that this list is empyt. It means that when user open screen with adding offer tehn therre is no services exist|
 |Dropdowns list|User can select specialist from list||
+|Button "+Add" specialist|User should be able to add a specialists. |Default value: previusely added specialists should not disapper when user opens "Add offer" screen.|
+|Button remove specials(trash bin)|User should be able to delete exist specialst||
 |Button "Save"|User can save chosen parameters||
 
 # Add salon
