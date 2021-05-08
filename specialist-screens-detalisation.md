@@ -34,7 +34,7 @@
 |**Open Questions** |  |
 
 # 2. Menu
-![Menu](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/MenuCLI.png)
+![Menu]()
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -43,7 +43,7 @@
 |Under, is list with "My account", "Calendar", "My Offers & Prices", "Settings", "Feedback", "Exit"|When the user clicks on the button, he should go to the selected page||
 
 # 3. My account
-![My account](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%204.png)
+![My account]()
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -52,7 +52,7 @@
 |Lower, is list with the "Account settings"||
 
 # 4. Calendar
-![Calendar](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%205.png)
+![Calendar]()
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
