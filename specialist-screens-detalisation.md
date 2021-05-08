@@ -34,7 +34,7 @@
 |**Open Questions** |  |
 
 # 2. Menu
-![Menu]()
+![Menu](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Menu-SP.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
