@@ -43,7 +43,7 @@
 |Under, is list with "My account", "Calendar", "My Offers & Prices", "Settings", "Feedback", "Exit"|When the user clicks on the button, he should go to the selected page||
 
 # 3. My account
-![My account]()
+![My account](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/MyAccount-SP.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -52,7 +52,7 @@
 |Lower, is list with the "Account settings"||
 
 # 4. Calendar
-![Calendar]()
+![Calendar](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Calendar-SP.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -65,7 +65,7 @@
 |Button "Add offer"|When the user clicks one of the button, he/she redirected on the page "Add offer"||
 
 # 5. My offers and price
-![My offers and price](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%206.png)
+![My offers and price](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/MyOffers.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -76,7 +76,7 @@
 |Button "Add offer"|When the user clicks one of the button, he/she redirected on the page "Add offer"||
 
 # 6. Settings
-![Settings](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%207.png)
+![Settings](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Settings.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -89,7 +89,7 @@
 |Button "Privacy policy"|User can be able to read all information about privacy policy.|User ought to confirm the privacy policy by clicking the button: "Accept" or "Decline"||
 
 # 7. Feedback
-![Feedback](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%208.png)
+![Feedback](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Feedback.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -99,7 +99,7 @@
 |A list with customer reviews is displayed on the screen|The name of the client is indicated, type of service, feedback, number of stars||
 
 # 8. Dashboard
-![Dashboard](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%209.png)
+![Dashboard](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Dashboard.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -109,7 +109,7 @@
 |A list displayed with: "Schedule", "Accounting", "My customers", "Messages", "Gallery"|If there are new events or/and messages, notifications will appear in the form of a circle with their number||
 
 # 9. Schedule
-![Schedule](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Screenshot%2010.png)
+![Schedule](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Schedule.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -120,7 +120,7 @@
 |Below is a list with a schedule for each day|The schedule displays: photo (if present) of the client, type of service, name of the client, paid for the service or not (then, the cost is indicated), date and time, icons: notification, call, edit|When user clicks on the notification(a bell), user should be able to set the reminder. User should recive a reminder in configured time(for example 15 min). When user clicks on the call, he/she will can to call client. When user clicks on the notification, he/she will sent massage to the client|Clicking on the "Notification" button redirects to the page "Messages"||
 
 # Event detail
-![Event detail](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Event%20detailSP.png)
+![Event detail](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Event%20detail.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -129,7 +129,7 @@
 |Below is a list with a schedule for the day|The schedule displays: photo (if present) of the client, type of service, name of the client, paid for the service or not (then, the cost is indicated), date and time, icons: notification, call, edit|When user clicks on the notification(a bell), user should be able to set the reminder. User should recive a reminder in configured time(for example 15 min). When user clicks on the call, he/she will can to call client. When user clicks on the notification, he/she will sent massage to the client||
 
 # My customers
-![My customers](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2013SP.png)
+![My customers](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/MyCustomers.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -139,7 +139,7 @@
 |Under, is list with data all customers|Information displayed: client`s photo, name, phone number, type of service, date of the procedure||
 
 # Add offer
-![Add offer](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Add%20offerSP.png)
+![Add offer](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Add%20offer.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -156,7 +156,7 @@
 |Button "Save"|User can save chosen parameters||
 
 # Add salon
-![Add salon](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Add%20salonSP.png)
+![Add salon](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Add%20salon.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -166,7 +166,7 @@
 |Button "Select here"|Clicking on the "Select here" button redirects back to the page "Add offer"||
 
 # Add offer 0.1
-![Add offer 0.1](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Add%20offer%200.1SP.png)
+![Add offer 0.1](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Add%20offer%200.1.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -177,7 +177,7 @@
 |Button "Save"|User can save chosen parameters|After, redirects back to the page "Add offer"||
 
 # Accounting 
-![Accounting](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2012SP.png)
+![Accounting](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Accounting.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -188,7 +188,7 @@
 |Active tab "Accounting check"|User can see: income by the days; global income; total number of clients||
 
 # Payment archive
-![Payment arcive](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2018SP.png)
+![Payment arcive](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/PaymentArchive.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -199,7 +199,7 @@
 |Below, is list with all payments per day||
 
 # Messages
-![Messages](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2014SP.png)
+![Messages](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Messages.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -209,7 +209,7 @@
 |Messages|Blocs with messages from different clients|When user chooses one message, he will redirect to the page "Message details"||
 
 # Message details
-![Message details](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Message%20detailsSP.png)
+![Message details](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Message%20details.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
@@ -220,7 +220,7 @@
 |Input text|User can write message text, add files||
 
 # Gallary
-![Gallery](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%2017SP.png)
+![Gallery](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Gallery.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
