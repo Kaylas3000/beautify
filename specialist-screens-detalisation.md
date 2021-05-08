@@ -34,7 +34,7 @@
 |**Open Questions** |  |
 
 # 2. Menu
-![Menu](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/Android%20-%203.png)
+![Menu](https://github.com/Kaylas3000/beautify/blob/master/Specialist-Figma-Screens/MenuCLI.png)
 
 | **Object** | **Function** | **Notes** |
 | --- | --- | --- |
