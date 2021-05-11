@@ -74,7 +74,7 @@ The user should be able to register an account (select "client") on the SignUp S
 |Button “Search”|Services should be filtered according to what is user typing in the search field|Located under search box from the left side.|
 |Button “Map”||Located is under search box from the right side.|
 |Button "Filter"|When the user clicks on the button then the user is redirected to another page with different filters.||
-|All offers|There is an offers scrolling option.|Outdated offers(offers in the past) should mot be shown.|
+|All offers|There is an offers scrolling option.|Outdated offers(offers in the past) should not be shown.|
 |Button "Book now"|Procedd of booking a service. User should be able to continue booking a service by clicking this button||
 |Picture of service provider|This is a picture that the service provider(saloon) uploaded||
 
