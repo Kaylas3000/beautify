@@ -56,3 +56,23 @@
 |   5   | Authorization with empty fields is not available. | |
 |   6   | Authorization with a wrong / deleted / blocked login is not available. | |
 |   7   | Authorization with incorrect password is not available. | |
+
+# Client app test scenarious:
+
+|**Test N** | **Test description**  | **Comments** |
+| --- | --- | --- |
+|   1   | Client is able to change avatar picture. Picture should be changed taken from user phone library.| |
+|   2   | Make an order with updated avatar so Specialist should see new avatar everywhere updated like in schedule, messanger etc.| |
+|   3   | Client should be able to order a service from Salon from Dashboard(offers switch)| |
+|   4   | Client should be able to order a service from Salon from Dashboard(salons switch)| |
+|   5   | Client should be able to order a service from Filters page| |
+|   6   | Client should be able to order a service from maps page| |
+|   7   | Client should be able to cancel the order| |
+|   8   | After making an order the order should be in order history on Upcoming page| |
+|   9   | After canceling the order it should be moved to order history page| |
+|   10  | After making an order client should be able to send a message to specialist| |
+|   11  | After order is completed by specialist the client should be able to leave a feedback| |
+|   12  | Client should be able to pay for the service in cash or by card| |
+
+
+
